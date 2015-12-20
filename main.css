@@ -3,10 +3,23 @@ body {
   margin: 0px;
 }
 
+#home-click {
+  font-family: 'Inconsolata';
+  color: white;
+  font-size: 28px;
+  position: absolute;
+  width: 500px;
+  height: 80px;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 42px;
+  z-index: 1;
+}
+
 #menu {
   height: 80px;
   font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-align: right;
   background-color: #A176CF;
   /*border-radius: 8px;*/
@@ -34,14 +47,14 @@ body {
 }
 
 #menu a:hover {
-  color: #7E44BD;
+  color: #9260c7;
 }
 
-#content {
+#intro {
   text-align: center;
-  color: #7E44BD;
+  color: #9260c7;
   font-size: 32px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -51,4 +64,27 @@ img {
   margin-left: 40px;
   margin-right: auto;
   width: 1200px;
+  position: relative;
+}
+
+.sides {
+  font-family: 'Inconsolata';
+  font-size: 28px;
+  color: #9260c7;
+  margin-top: -500px;
+  text-align: center;
+}
+
+.subtext {
+  font-size: 24px;
+}
+
+#left-text {
+  float: left; 
+  padding-left: 75px;
+}
+
+#right-text {
+  float: right;
+  padding-right: 100px;
 }
