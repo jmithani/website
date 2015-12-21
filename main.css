@@ -72,7 +72,8 @@ img {
 }
 
 .sides {
-  font-family: 'Inconsolata';
+  /*font-family: 'Inconsolata';*/
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 28px;
   color: #9260c7;
   margin-top: -500px;
