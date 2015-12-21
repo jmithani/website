@@ -82,3 +82,12 @@ body {
 #content a:hover {
   text-decoration: underline;
 }
+
+#content ul {
+  font-size: 20px;
+  list-style-type: none;
+}
+
+#content li {
+  margin-bottom: 4px;
+}
