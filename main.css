@@ -1,4 +1,4 @@
-@media screen and (max-width: 1080px) {
+/*@media screen and (max-width: 1080px) {
   #menu, #menu ul {
     height: auto;
   }
@@ -6,7 +6,7 @@
   .sides, .subtext, img, #left-text, #right-text {
     display: none;
   }
-}
+}*/
 
 body {
   background-color: white;
