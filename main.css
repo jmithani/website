@@ -1,13 +1,3 @@
-@media screen {
-  #menu, #menu ul {
-    height: auto;
-  }
-
-  .sides, .subtext, img, #left-text, #right-text {
-    display: none;
-  }
-}
-
 body {
   background-color: white;
   margin: 0px;
