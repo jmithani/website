@@ -17,6 +17,10 @@ body {
   z-index: 1;
 }
 
+a:-webkit-any-link {
+  text-decoration:none !important;
+}
+
 #home-click a {
   text-decoration: none;
   color: white;
