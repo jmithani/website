@@ -9,6 +9,13 @@ body {
 
 .portfolio-item {
     margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.img-responsive:hover {
+	opacity: 0.4;
+	color: #A176CF;
+	z-index: 100;
 }
 
 footer {
