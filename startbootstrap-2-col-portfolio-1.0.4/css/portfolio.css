@@ -4,6 +4,10 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+#header {
+	margin-bottom: 5px;
+}
+
 body {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -32,6 +36,9 @@ h3 {
 
 h4 {
     margin-top: 5px;
+    font-size: 1.25em;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 
@@ -39,31 +46,25 @@ h1, h2, h3, h4, h5, h6 {
     color: #9260c7;
 }
 
-.portfolio-item {
-    margin-bottom: 25px;
-    margin-top: 25px;
-    position: relative;
+p {
+	margin: 10px;
 }
 
-#overlay {  
-	background:rgba(0,0,0,.75);
-    text-align:center;
-    padding:45px 0 66px 0;
-    opacity:0;
-    -webkit-transition: opacity .25s ease;
-	-moz-transition: opacity .25s ease;
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.img-responsive:hover {
-	opacity: 0.7;
-/*	color: #A176CF;
-	z-index: 100;*/
+#sbd {
+	height: 200px;
+	width: 350px;
+	margin-top: 15px;
 }
 
-.img-responsive:hover #overlay {
-	opacity: 1;
-}
-
-footer {
-    margin: 50px 0;
+footer a {
+	padding-bottom: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
 }
