@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Words Matter</title>
+  <link href="../css/portfolio.css" rel="stylesheet" type = "text/css">
+  <link href="../css/page.css" rel="stylesheet" type = "text/css">
+
+  <!-- Custom Fonts -->
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<!-- Begin Navbar -->
+<body>
+  <div id="home-click">
+    <a href="../index.html">jM2 // jasmine mithani</a>
+  </div>
+
+  <div id="menu">
+    <ul>
+      <li><a href="portfolio_index.html">WORK</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="reading.html">READING</a></li>
+      <li><a href="http://blog.jmithani.com">THOUGHTS</a></li>
+    </ul>
+  </div>
+<!-- End Navbar -->
+
+
+  <div id="header">
+    Words Matter
+  </div>
+
+  <div id="content">
+
+    <h4>  
+      <a href="#ideation">ideation</a> / 
+      <a href="#research">research</a> / 
+      <a href="#design">design</a> / 
+<!--       <a href="#UX">UX</a> / -->
+      <a href="#development">development</a> / 
+      <a href="#prototypes">prototypes</a>
+    </h4>
+
+    <img id="wtm" class="img-responsive" src="../img/words-that-matter.png" alt="Words That Matter">
+
+    <br>
+
+    <div id="ideation"> <!-- @todo clean this up so it says h4 id="" -->
+      <h4>
+        ideation
+      </h4>
+
+      <p>DoSomething.org had launched a campaign in April 2015 called &quot;1 in 3 of Us.&quot;  The campaign focused on educating high school and college students about the signs of unhealthy relationships.  Members who signed up for the campaign were given access to a digital download of a “Spot the Signs” guide to distribute among friends, as well as a set of three flash tattoos.  The tattoos went around the wrist, and spelled out “one in three” in morse code.  Members were encouraged to take a photo with them and two of their friends wearing the tattoos, and submit it back to DoSomething.org as proof of completion.  After running for several months, there were still tens of thousands of kits that were not sent out. In all aspects, the campaign was considered a failure. </p>
+      <p>     This statistic struck me as incredibly important, and the space I wanted to explore while interning at DoSomething were the sex, relationships, and violence campagains. I talked to several members of the DoSomething staff that worked on the &quot;1 in 3&quot; campaign, trying to pick apart what went wrong.  Part of the problem was the demographic - while both high schoolers and college students have relationships, they experience them in very different ways.  A lot of the education these young people receive is on either physical or sexual abuse, and neglects to mention more subtle signs of an unhealthy relationship.  There is a lot of activism being done around sexual consent, but it is mostly aimed at the post-high school crowd.  This lack of attention - at both outside organizations and DoSomething - pushed me to aim this game at a younger demographic.  High schoolers especially have little experience with deeper emotional relationships, and are less likely to recognize an unhealthy relationship.  As someone who was not-quite-so-recently in high school, I saw this reflected both inside and outside the classroom.  I wanted to make a game that empowered players to recognize the signs of unhealthy relationships and take action to stop these behaviors. </p>
+    </div>
+
+    <br>
+
+    <div id="research">
+      <h4>
+        research
+      </h4>
+
+      <p>I spent my first week at DoSomething reviewing academic literature on games, social activism, and offline impact.  With no prior video game work done at DoSomething, I created a repository of articles, studies, and interviews with game developers to inform our process.  From both published research and interviews, I identified one driving factor in all successful games: the invocation of empathy.  While many factors can help make a game memorable - such as interesting mechanics or innovative gameplay - without making the player feel something, the cause is lost.  Designers can focus on certain values to elicit an emotional response from the player.  This was the approach that we ultimately used to guide our designing process. </p>
+    </div>
+
+    <br>
+
+    <div id="design">
+      <h4>
+        design
+      </h4>
+
+      <p>I researched signs of emotional abuse, many of which had to do with communication and language used to undermine a friend or partner.  Since we wanted the situations in the game to be easily applicable to everyday life, we decided to make the game a dialogue-based point-and-click adventure.  Many games in this style focused on bystander intervention, but I wanted to go in a different direction - at least initially.  A part of my vision for the offline impact of the game involved the player not just stepping in to educate others, but also watching and correcting their own behavior.  The basic layout of the game was established: exhibit abusive behavior, learn that it was abusive, learn how to make up for past mistakes, and then educate another character through bystander intervention.  Of course, the game had to resonate with high schoolers especially, so I chose a quintessential secondary school experience: prom. </p>
+    </div>
+
+    <br>
+
+    <div id="development">
+      <h4>
+        development
+      </h4>
+
+      <!-- <img class="img-responsive" src="../img/serial.png" alt=""> -->
+
+      <p>Our first development decision was what we should use as our platform. Our two main options were either a web game or a mobile application.  Many factors weighed into our decision: DoSomething is a global organization, with affiliates in countries from the UK to Malaysia; DoSomething engages over 2.8 million members through SMS; ease of shareability.  Ultimately, we decided to host on the web, and make it responsive to mobile devices. After researching different game engines, we decided to use Phaser, a JavaScript/HTML5 framework. Our other contender was the Unity Web Player, but we felt the requirement to download the client would prove to be too large a barrier for players.
+      <p>     We quickly iterated through several prototypes, and ended the summer internship with our first official prototype. We sent it out to several game developer friends, gathered their feedback, and put together a plan for the next few months.
+      <p>     The first prototype we worked on over the summer had three short scenes of dialogue choices, along with narrative copy to set up the game. I first drafted the game dialogue in a physical flowchart made from post-its notes, then implemented it in our prototype. As our project progressed past the summer, I did a complete rehaul of the simplistic game script. I dropped it into Twine, a text adventure game engine, and then reached out to DoSomething contacts at Planned Parenthood, the Center for Disease Control, and ROAR for Good for a review. I wrote everything from scratch, and while I had done extensive research about unhealthy and abusive relationships, I wanted a professional opinion about the scenarios we presented and the actions we reccommended. Currently, I am working in the feedback we got into a final Twine script, from which we will make the Phaser final product. </p>
+    </div>
+
+    <br>
+
+    <div id="prototypes">
+      <h4>
+        prototypes
+      </h4>
+
+<!--       <table align="center">
+        <tr>
+          <td>
+            <img class="img-responsive" src="../img/hrjposter.jpg" align="center" alt="">
+          </td>
+          <td>
+            <img class="img-responsive" src="../img/sbd_fb.png" align="center" alt="">
+          </td>
+        </tr>
+      </table> -->
+
+      <p>Our first complete Phaser prototype from the summer is available <a href="http:/dosomethinggames.github.io/words-that-matter">here</a>.
+      <p>Our most recent prototype contains the script. It is playable <a href="http://philome.la/DoSomethingPlay/words-matter-content-prototype">here</a>.</p>
+
+
+    </div>
+
+</body>
+
+<footer>
+  <br>
+  <a href="portfolio_index.html">Back</a>
+</footer>
