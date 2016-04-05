@@ -9,39 +9,8 @@ body {
     padding: 100px;
 }
 
-#custom-bootstrap-menu {
-    font-family: 'Inconsolata';
-}
-
-#custom-bootstrap-menu.navbar-default {
-    font-size: 24px;
-    border-bottom-width: 0px;
-}
-#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
-    color: rgba(146, 96, 199, 1);
-}
-#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
-#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
-    color: rgba(146, 96, 199, 1);
-}
-#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
-#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
-#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
-    color: rgba(146, 96, 199, 1);
-}
-#custom-bootstrap-menu.navbar-default .navbar-toggle {
-    border-color: #ddd;
-}
-#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
-#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
-    background-color: none;
-}
-#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
-    background-color: none;
-}
-#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
-#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
-    background-color: none;
+.navbar-transparent .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: rgba(0,0,0,0.4);
 }
 
 a {
