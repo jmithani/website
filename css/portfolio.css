@@ -4,13 +4,12 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body {
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    padding: 100px;
+#header {
+    margin-bottom: 5px;
 }
 
-.navbar-transparent .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: rgba(0,0,0,0.4);
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -48,24 +47,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-	margin: 10px;
+    margin: 10px;
 }
 
 img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #sbd {
-	height: 200px;
-	width: 350px;
-	margin-top: 15px;
+    height: 200px;
+    width: 350px;
+    margin-top: 15px;
 }
 
 footer a {
-	padding-bottom: 50px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;	
+    padding-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
 }
