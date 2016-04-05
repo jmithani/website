@@ -4,6 +4,7 @@ body {
 
 #content {
   padding-left: 5%;
+  margin-top: 2%;
 }
 
 p {
@@ -11,6 +12,7 @@ p {
   color: #555;
   font-size: 28px;
   line-height: 2;
+  margin: 0px;
 }
 
 p a {
