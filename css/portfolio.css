@@ -12,6 +12,20 @@ body {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+/* Begin Navbar */
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    font-family: 'Inconsolata';
+    font-size: 18px;
+    margin: 0px;
+}
+
+.navbar-default .navbar-nav>li>a:hover  {
+    color: #9260c7;
+}
+/* End Navbar */
+
 a {
     text-decoration: none;
     color: #9260c7;
@@ -39,6 +53,7 @@ h4 {
     font-size: 1.25em;
     text-align: center;
     margin-bottom: 10px;
+    font-family: 'Inconsolata';
 }
 
 

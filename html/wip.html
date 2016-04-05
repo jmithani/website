@@ -3,6 +3,7 @@
 
 <head>
   <title>About Jasmine</title>
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
   <link href="../css/portfolio.css" rel="stylesheet" type = "text/css">
   <link href="../css/page.css" rel="stylesheet" type = "text/css">
 
@@ -15,18 +16,17 @@
 
 <!-- Begin Navbar -->
 <body>
-  <div id="home-click">
-    <a href="../index.html">jM2 // jasmine mithani</a>
-  </div>
-
-  <div id="menu">
-    <ul>
-      <li><a href="portfolio_index.html">WORK</a></li>
-      <li><a href="about.html">ABOUT</a></li>
-      <li><a href="reading.html">READING</a></li>
-      <li><a href="http://blog.jmithani.com">THOUGHTS</a></li>
-    </ul>
-  </div>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="portfolio_index.html">work</a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="http://blog.jmithani.com">blog</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
 <!-- End Navbar -->
 
 
@@ -73,7 +73,11 @@
 
 
   </div>
+  <!-- jQuery -->
+  <script src="../js/jquery.js"></script>
 
+  <!-- Bootstrap Core JavaScript -->
+  <script src="../js/bootstrap.min.js"></script>
 </body>
 
 <footer>
