@@ -5,12 +5,26 @@
  */
 
 #header {
-	margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 body {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+/* Begin Navbar */
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    font-family: 'Inconsolata';
+    font-size: 18px;
+    margin: 0px;
+}
+
+.navbar-default .navbar-nav>li>a:hover  {
+    color: #9260c7;
+}
+/* End Navbar */
 
 a {
     text-decoration: none;
@@ -39,6 +53,7 @@ h4 {
     font-size: 1.25em;
     text-align: center;
     margin-bottom: 10px;
+    font-family: 'Inconsolata';
 }
 
 
@@ -47,24 +62,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-	margin: 10px;
+    margin: 10px;
 }
 
 img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #sbd {
-	height: 200px;
-	width: 350px;
-	margin-top: 15px;
+    height: 200px;
+    width: 350px;
+    margin-top: 15px;
 }
 
 footer a {
-	padding-bottom: 50px;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;	
+    padding-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
 }
