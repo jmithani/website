@@ -32,9 +32,9 @@ body {
   color: #555;
   font-size: 20px;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  margin-left: 250px;
-  margin-right: 250px;
   margin-top: 0px;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 
 #content a {
