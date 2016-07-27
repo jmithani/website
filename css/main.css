@@ -152,6 +152,28 @@ p a:hover {
   padding-top: 8px;
 }
 
+/* Adjustments for 2-line card titles */
+
+div.mdl-cell.mdl-cell--3-col.demo-card-image.mdl-card.rcs.mdl-shadow--2dp.design.ux.all div.mdl-card__actions div.card-title {
+  padding-top: 0px;
+}
+
+div.mdl-cell.mdl-cell--3-col.demo-card-image.mdl-card.mdl-shadow--2dp.play.research.art.all div.mdl-card__actions div.card-title {
+  padding-top: 0px;
+}
+
+.demo-card-image.play:hover .show-on-hover .card-tags,
+.demo-card-image.rcs:hover .show-on-hover .card-tags {
+  margin-top: 48px;
+}
+
+.demo-card-image.play:hover .show-on-hover .card-description,
+.demo-card-image.rcs:hover .show-on-hover .card-description {
+  margin-top: 64px;
+}
+
+/* End adjustments */
+
 .card-tags {
   display: none;
 }
@@ -175,7 +197,7 @@ p a:hover {
 .demo-card-image:hover .show-on-hover .card-tags {
   display: inline;
   color: #fff;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 500;
   font-family: 'Inconsolata', monospace;
   position: absolute;
@@ -187,7 +209,7 @@ p a:hover {
 .demo-card-image:hover .show-on-hover .card-description {
   display: inline;
   color: #fff;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 500;
   font-family: 'Open Sans', sans-serif;
   text-align: right;
