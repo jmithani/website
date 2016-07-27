@@ -121,6 +121,18 @@ p a:hover {
   background: url('../img/twine_meta.png') center / cover;
 }
 
+.demo-card-image.mdl-card.mspres {
+  background: url('../img/dearmspresident.png') center / cover;
+}
+
+.demo-card-image.mdl-card.play {
+  background: url('../img/tcc.png') center / cover;
+}
+
+.demo-card-image.mdl-card.dataviz {
+  background: url('../img/usa.png') center / cover;
+}
+
 .demo-card-image > .mdl-card__actions {
   transition: all 0.5s linear;
   height: 56px;
