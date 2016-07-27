@@ -34,94 +34,111 @@
   <!-- Uses a transparent header that draws on top of the layout's background -->
 
 
-<div class="demo-layout-transparent mdl-layout mdl-js-layout">
-  <header class="mdl-layout__header mdl-layout__header--transparent">
-    <div class="mdl-layout__header-row">
-      <!-- Title -->
-      <span class="mdl-layout-title">Jasmine Mithani</span>
-      <!-- Add spacer, to align navigation to the right -->
-      <div class="mdl-layout-spacer"></div>
-      <!-- Navigation -->
-      <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="">work</a>
-        <a class="mdl-navigation__link" href="">about</a>
-        <a class="mdl-navigation__link" href="">blog</a>
-      </nav>
-    </div>
-  </header>
+  <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+    <header class="mdl-layout__header mdl-layout__header--transparent">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">jasmine mithani</span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation -->
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="">work</a>
+          <a class="mdl-navigation__link" href="">about</a>
+          <a class="mdl-navigation__link" href="">blog</a>
+        </nav>
+      </div>
+    </header>
 
-  <main class="mdl-layout__content">
-    <!-- Card Nav -->
-<div class="card-nav">
-  <button id="nav-all" class="mdl-button mdl-js-button">All</button>
-  <button id="nav-design" class="mdl-button mdl-js-button">Design</button>
-  <button id="nav-code" class="mdl-button mdl-js-button">Code</button>
-  <button id="nav-ux" class="mdl-button mdl-js-button">UX</button>
-</div>
-<!-- Grid -->
-<div class="content-grid mdl-grid">
+    <main class="mdl-layout__content">
+      <div id="intro">
+        <h3>Hi, I&#39;m Jasmine. Nice to meet you.</h3>
+        <p>I&#39;m a designer, developer, and researcher dedicated to combining art and technology to make 
+          the world a better place.</p>
+      </div>
 
-  <!--   <div class="mdl-cell mdl-cell--1-col"></div> -->
+      <!-- Card Nav -->
+      <div class="card-nav">
+        <button id="nav-all" class="mdl-button mdl-js-button">All</button>
+        <button id="nav-design" class="mdl-button mdl-js-button">Design</button>
+        <button id="nav-code" class="mdl-button mdl-js-button">Code</button>
+        <button id="nav-ux" class="mdl-button mdl-js-button">UX</button>
+        <button id="nav-research" class="mdl-button mdl-js-button">Research</button>
+      </div>
+      <!-- Grid -->
+      <div class="content-grid mdl-grid">
 
-  <!--   <div class="mdl-cell mdl-cell--2-col"> -->
-  <div class="mdl-cell mdl-cell--4-col demo-card-image mdl-card vd mdl-shadow--2dp design all" >
-    <div class="mdl-card__actions">
-      <div class="card-title"><span>visual design</span></div>
-      <div class="show-on-hover">
-        <div class="card-tags"><span>design</span></div>
-        <div class="card-description"><span>This is a collection of artworks illustrating foundational design principles.</span></div>
-      </div> <!-- show on hover -->
-    </div> <!-- card actions -->
-  </div> <!-- demo card -->
-  <!--   </div>  --><!-- mdl-cell -->
+        <!--   <div class="mdl-cell mdl-cell--1-col"></div> -->
 
-  <!--   <div class="mdl-cell mdl-cell--2-col"> -->
-  <div class="mdl-cell mdl-cell--4-col demo-card-image mdl-card wtm mdl-shadow--2dp design code ux all">
-    <div class="mdl-card__actions">
-      <div class="card-title"><span>words that matter</span></div>
-      <div class="show-on-hover">
-        <div class="card-tags"><span>design / code / ux</span></div>
-        <div class="card-description"><span>Game demo for DoSomething.org to educate teens about unhealthy relationships.</span></div>
-      </div> <!-- show on hover -->
-    </div> <!-- card actions -->
-  </div> <!-- demo card -->
-  <!--   </div> --> <!-- mdl-cell -->
+        <!--   <div class="mdl-cell mdl-cell--2-col"> -->
+        <div class="mdl-cell mdl-cell--4-col demo-card-image mdl-card vd mdl-shadow--2dp design all" >
+          <div class="mdl-card__actions">
+            <div class="card-title"><span>visual design</span></div>
+            <div class="show-on-hover">
+              <div class="card-tags"><span>design</span></div>
+              <div class="card-description"><span>This is a collection of artworks illustrating foundational design principles.</span></div>
+            </div> <!-- show on hover -->
+          </div> <!-- card actions -->
+        </div> <!-- demo card -->
+        <!--   </div>  --><!-- mdl-cell -->
 
-  <!--   <div class="mdl-cell mdl-cell--2-col"> -->
-  <div class="mdl-cell mdl-cell--4-col demo-card-image mdl-card ftb mdl-shadow--2dp code ux all">
-    <div class="mdl-card__actions">
-      <div class="card-title"><span>feed the baby</span></div>
-      <div class="show-on-hover">
-        <div class="card-tags"><span>code / ux</span></div>
-        <div class="card-description"><span>Game released by DoSomething.org in order to encourage sign-ups for a campaign tackling teenage pregnancy.</span></div>
-      </div> <!-- show on hover -->
-    </div> <!-- card actions -->
-  </div> <!-- demo card -->
-  <!--   </div> --> <!-- mdl-cell -->
+        <!--   <div class="mdl-cell mdl-cell--2-col"> -->
+        <div class="mdl-cell mdl-cell--4-col demo-card-image mdl-card wtm mdl-shadow--2dp design code ux all">
+          <div class="mdl-card__actions">
+            <div class="card-title"><span>words that matter</span></div>
+            <div class="show-on-hover">
+              <div class="card-tags"><span>design / code / ux</span></div>
+              <div class="card-description"><span>Game demo for DoSomething.org to educate teens about unhealthy relationships.</span></div>
+            </div> <!-- show on hover -->
+          </div> <!-- card actions -->
+        </div> <!-- demo card -->
+        <!--   </div> --> <!-- mdl-cell -->
 
-  <div class="mdl-cell mdl-cell--4-col demo-card-image mdl-card rcs mdl-shadow--2dp design ux all">
-    <div class="mdl-card__actions">
-      <div class="card-title"><span>reinventing career services</span></div>
-      <div class="show-on-hover">
-        <div class="card-tags"><span>design / ux</span></div>
-        <div class="card-description"><span>Class project redesign of the UChicago Career Services structure to focus on career discovery.</span></div>
-      </div> <!-- show on hover -->
-    </div> <!-- card actions -->
-  </div> <!-- demo card -->
+        <!--   <div class="mdl-cell mdl-cell--2-col"> -->
+        <div class="mdl-cell mdl-cell--4-col demo-card-image mdl-card ftb mdl-shadow--2dp code ux all">
+          <div class="mdl-card__actions">
+            <div class="card-title"><span>feed the baby</span></div>
+            <div class="show-on-hover">
+              <div class="card-tags"><span>code / ux</span></div>
+              <div class="card-description"><span>Game released by DoSomething.org in order to encourage sign-ups for a campaign tackling teenage pregnancy.</span></div>
+            </div> <!-- show on hover -->
+          </div> <!-- card actions -->
+        </div> <!-- demo card -->
+        <!--   </div> --> <!-- mdl-cell -->
 
-  <div class="mdl-cell mdl-cell--4-col demo-card-image mdl-card sbd mdl-shadow--2dp design all">
-    <div class="mdl-card__actions">
-      <div class="card-title"><span>sliced bread digital</span></div>
-      <div class="show-on-hover">
-        <div class="card-tags"><span>design</span></div>
-        <div class="card-description"><span>Online serial created to accomodate works too long to be published in print.</span></div>
-      </div> <!-- show on hover -->
-    </div> <!-- card actions -->
-  </div> <!-- demo card -->
+        <div class="mdl-cell mdl-cell--4-col demo-card-image mdl-card rcs mdl-shadow--2dp design ux all">
+          <div class="mdl-card__actions">
+            <div class="card-title"><span>reinventing career services</span></div>
+            <div class="show-on-hover">
+              <div class="card-tags"><span>design / ux</span></div>
+              <div class="card-description"><span>Class project redesign of the UChicago Career Services structure to focus on career discovery.</span></div>
+            </div> <!-- show on hover -->
+          </div> <!-- card actions -->
+        </div> <!-- demo card -->
 
-</div> <!-- mdl-grid -->
-  </main>
-</div>
+        <div class="mdl-cell mdl-cell--4-col demo-card-image mdl-card sbd mdl-shadow--2dp design all">
+          <div class="mdl-card__actions">
+            <div class="card-title"><span>sliced bread digital</span></div>
+            <div class="show-on-hover">
+              <div class="card-tags"><span>design</span></div>
+              <div class="card-description"><span>Online serial created to accomodate works too long to be published in print.</span></div>
+            </div> <!-- show on hover -->
+          </div> <!-- card actions -->
+        </div> <!-- demo card -->
+
+        <div class="mdl-cell mdl-cell--4-col demo-card-image mdl-card mdl-shadow--2dp twine research all">
+          <div class="mdl-card__actions">
+            <div class="card-title"><span>gender, language, twine games</span></div>
+            <div class="show-on-hover">
+              <div class="card-tags"><span>research</span></div>
+              <div class="card-description"><span>Text analysis of online web games written by men versus women.</span></div>
+            </div> <!-- show on hover -->
+          </div> <!-- card actions -->
+        </div> <!-- demo card -->
+
+      </div> <!-- mdl-grid -->
+    </main>
+  </div>
 
 
 </body>
@@ -163,6 +180,16 @@ $(document).ready(function() {
   $('#nav-all').click(function() {
     $('.mdl-card').each(function() {
       if ($(this).hasClass('all')) {
+        $(this).css('opacity', 1);
+      } else {
+        $(this).css('opacity', 0.4);
+      }
+    });
+  });
+
+  $('#nav-research').click(function() {
+    $('.mdl-card').each(function() {
+      if ($(this).hasClass('research')) {
         $(this).css('opacity', 1);
       } else {
         $(this).css('opacity', 0.4);

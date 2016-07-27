@@ -15,7 +15,7 @@ body {
 
 .mdl-layout__header-row .mdl-layout-title {
   font-family: 'Inconsolata';
-  color: #555;
+  color: rgb(146, 96, 199);
   font-size: 2em;
 }
 
@@ -25,9 +25,30 @@ body {
 }
 
 .mdl-layout__header-row .mdl-navigation__link {
-  color: #555 !important;
+  color: rgb(146, 96, 199) !important;
   font-family: 'Inconsolata';
   font-size: 1.25em;
+}
+
+.mdl-layout__content #intro h3 {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #555;
+  font-size: 2.25em;
+  line-height: 1.5;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.mdl-layout__content #intro p {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #555;
+  font-size: 1.75em;
+  line-height: 1.5;
+  margin-right: 15%;
+  margin-left: 15%;
+  text-align: center;
 }
 
 p {
@@ -96,6 +117,10 @@ p a:hover {
   background: url('../img/sbdigital.PNG') center / cover;
 }
 
+.demo-card-image.mdl-card.twine {
+  background: url('../img/twine_meta.png') center / cover;
+}
+
 .demo-card-image > .mdl-card__actions {
   transition: all 0.5s linear;
   height: 56px;
@@ -107,11 +132,12 @@ p a:hover {
 
 .card-title {
   color: #fff;
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 1.25em;
+/*  font-weight: 700;*/
   font-family: 'Inconsolata', monospace;
   text-align: right;
 /*  align-items: flex-start;*/
+  padding-top: 8px;
 }
 
 .card-tags {
@@ -142,7 +168,7 @@ p a:hover {
   font-family: 'Inconsolata', monospace;
   position: absolute;
   right: 16px;
-  margin-top: 25px;
+  margin-top: 32px;
   margin-bottom: 10px;
 }
 
@@ -155,7 +181,7 @@ p a:hover {
   text-align: right;
   position: absolute;
   right: 16px;
-  margin-top: 45px;
+  margin-top: 48px;
 }
 
 .card-nav {
