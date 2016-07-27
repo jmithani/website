@@ -8,6 +8,14 @@ body {
   background: url('../assets/demos/transparent.jpg') center / cover;
 }*/
 
+.mdl-layout .mdl-layout__header {
+  background-color: #FFF;
+}
+
+.demo-layout-transparent .mdl-layout__drawer-button {
+  color: #555;
+}
+
 .mdl-layout__header-row {
   padding-left: 2% !important;
   padding-right: 2% !important;
@@ -17,11 +25,6 @@ body {
   font-family: 'Inconsolata';
   color: rgb(146, 96, 199);
   font-size: 2em;
-}
-
-.demo-layout-transparent .mdl-layout__header,
-.demo-layout-transparent .mdl-layout__drawer-button {
-  color: #555;
 }
 
 .mdl-layout__header-row .mdl-navigation__link {
@@ -234,10 +237,18 @@ div.mdl-cell.mdl-cell--3-col.demo-card-image.mdl-card.mdl-shadow--2dp.play.resea
     text-transform: lowercase;
     text-align: center;
   }
+
+  #big-title {
+    display: none;
+  }
 }
 
 @media (min-width: 501px) {
   #work {
+    display: none;
+  }
+
+  #small-title {
     display: none;
   }
 }
