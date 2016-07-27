@@ -222,6 +222,26 @@ div.mdl-cell.mdl-cell--3-col.demo-card-image.mdl-card.mdl-shadow--2dp.play.resea
   text-align: center;
 }
 
+@media (max-width: 500px) {
+  .card-nav {
+    display: none;
+  }
+
+  #work {
+    font-size: 1.25em;
+    font-family: 'Open Sans';
+    color: #555;
+    text-transform: lowercase;
+    text-align: center;
+  }
+}
+
+@media (min-width: 501px) {
+  #work {
+    display: none;
+  }
+}
+
 .mdl-button {
   margin-top: 10px;
   display: inline-block;
