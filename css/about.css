@@ -1,5 +1,6 @@
 .page-content {
   text-align: center;
+  font-family: 'Open Sans';
 }
 
 .page-content img {
@@ -30,6 +31,21 @@
   margin-top: 20px;
 }
 
+@media (max-width: 500px) {
+  #about-text {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  .page-content img {
+    height: 150px;
+  }
+}
+
 #about-text a {
   font-size: 1.1em;
+}
+
+#about-text .title {
+  font-size: 1.25em;
 }
