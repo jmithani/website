@@ -31,6 +31,10 @@
   margin-top: 20px;
 }
 
+.about-text p {
+  font-size: 1.1em;
+}
+
 @media (max-width: 500px) {
   .about-text {
     margin-right: 10%;
@@ -49,6 +53,7 @@ ul {
   padding: 0px 15px 0px 15px;
 /*  text-align: center;*/
 }
+
 .page-content #status li {
   font-size: 1.15em;
   color: #555;
@@ -62,7 +67,8 @@ ul {
 
 .page-content #status a {
   font-size: 1.1em;
-  text-decoration: none;
+  text-decoration: underline;
+  font-weight: 700;
 }
 
 .about-text a {
@@ -71,4 +77,22 @@ ul {
 
 .about-text .title {
   font-size: 1.25em;
+  color: #555;
+  font-weight: 600;
+}
+
+.about-text h1, .about-text h2 {
+  font-family: 'Inconsolata';
+  color: rgb(146, 96, 199);
+  margin-top: 10px;
+}
+
+.about-text h1 {
+  font-size: 2.25em;
+  margin-bottom: 0px;
+}
+
+.about-text h2 {
+    font-size: 1.75em;
+    margin-bottom: 10px;
 }
