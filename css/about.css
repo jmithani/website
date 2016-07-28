@@ -24,7 +24,7 @@
   font-size: 1.5em;
 }
 
-#about-text {
+.about-text {
   text-align: left;
   margin-right: 20%;
   margin-left: 20%;
@@ -32,7 +32,7 @@
 }
 
 @media (max-width: 500px) {
-  #about-text {
+  .about-text {
     margin-right: 10%;
     margin-left: 10%;
   }
@@ -44,28 +44,31 @@
 
 ul {
   list-style-type: none;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px 15px 0px 15px;
 /*  text-align: center;*/
 }
-.page-content #about-text #status li {
-  font-size: 1.2em;
+.page-content #status li {
+  font-size: 1.15em;
   color: #555;
 }
 
-.page-content #about-text #status .first-item {
+.page-content #status .first-item {
   font-size: 1.2em;
   color: #555;
   font-weight: 700;
 }
 
-.page-content #about-text #status a {
+.page-content #status a {
   font-size: 1.1em;
   text-decoration: none;
 }
 
-#about-text a {
+.about-text a {
   font-size: 1.1em;
 }
 
-#about-text .title {
+.about-text .title {
   font-size: 1.25em;
 }
