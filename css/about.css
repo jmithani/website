@@ -7,9 +7,29 @@
   margin-top: 20px;
 }
 
+.page-content a {
+  font-family: 'Inconsolata';
+  text-decoration: underline;
+  color: rgb(146, 96, 199);
+}
+
+#links {
+  margin-top: 15px;
+}
+
+#links a {
+  padding: 10px;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
 #about-text {
   text-align: left;
   margin-right: 20%;
   margin-left: 20%;
   margin-top: 20px;
+}
+
+#about-text a {
+  font-size: 1.1em;
 }
