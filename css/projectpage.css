@@ -31,7 +31,9 @@
 }
 
 .page-content .about-text img {
-  margin: 0;
+  margin-left: 15%;
+  margin-right: 0;
+  margin-bottom: 20px;
 }
 
 .about-text .double-pic-spacer {
@@ -41,3 +43,17 @@
   margin-right: 20%;
   font-size: 0.9em;
 }
+
+#left img, #right img {
+  height: 250px;
+}
+/*
+#left {
+  float: left;
+  display: block;
+}
+
+#right {
+  float: right;
+  display: block;
+}*/
