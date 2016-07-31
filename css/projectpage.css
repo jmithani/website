@@ -1,0 +1,27 @@
+.page-content img {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.about-text h1, .about-text h2 {
+  font-family: 'Inconsolata';
+  color: rgb(146, 96, 199);
+  margin: 0px;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.about-text h1 {
+  font-size: 2.25em;
+  margin-bottom: 0px;
+}
+
+.about-text h2 {
+  font-size: 1.75em;
+  margin-bottom: 15px;
+}
+
+.about-text .vertical {
+  margin-right: 35%;
+  margin-left: 35%;
+}

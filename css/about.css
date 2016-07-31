@@ -80,19 +80,3 @@ ul {
   color: #555;
   font-weight: 600;
 }
-
-.about-text h1, .about-text h2 {
-  font-family: 'Inconsolata';
-  color: rgb(146, 96, 199);
-  margin-top: 10px;
-}
-
-.about-text h1 {
-  font-size: 2.25em;
-  margin-bottom: 0px;
-}
-
-.about-text h2 {
-    font-size: 1.75em;
-    margin-bottom: 10px;
-}
