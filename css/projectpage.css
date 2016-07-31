@@ -25,3 +25,19 @@
   margin-right: 35%;
   margin-left: 35%;
 }
+
+.about-text .horizontal {
+  text-align: center;
+}
+
+.page-content .about-text img {
+  margin: 0;
+}
+
+.about-text .double-pic-spacer {
+  margin: 20px;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 0.9em;
+}
