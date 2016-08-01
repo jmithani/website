@@ -1,7 +1,7 @@
-.page-content img {
+/*.page-content img {
   margin-left: 20%;
   margin-right: 20%;
-}
+}*/
 
 .about-text h1, .about-text h2 {
   font-family: 'Inconsolata';
@@ -28,14 +28,16 @@
 
 .about-text .horizontal {
   text-align: center;
+  font-size: 0.9em;
+  margin: 2%;
 }
 
-.page-content .about-text img {
+/*.page-content .about-text img {
   margin-left: 15%;
   margin-right: 0;
   margin-bottom: 20px;
 }
-
+*/
 .about-text .double-pic-spacer {
   margin: 20px;
   text-align: center;
@@ -57,3 +59,8 @@
   float: right;
   display: block;
 }*/
+
+#dialogue {
+  width: 200px;
+  height: auto;
+}

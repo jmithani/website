@@ -3,9 +3,9 @@
   font-family: 'Open Sans';
 }
 
-.page-content img {
+.page-content img, .page-content .about-text img {
   height: 300px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .page-content a {
