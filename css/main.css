@@ -257,3 +257,7 @@ div.mdl-cell.mdl-cell--3-col.demo-card-image.mdl-card.mdl-shadow--2dp.play.resea
   margin-top: 10px;
   display: inline-block;
 }
+
+.mdl-card__actions a {
+  text-decoration: none;
+}
