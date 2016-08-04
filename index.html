@@ -2,40 +2,268 @@
 <html>
 
 <head>
-	<title>Hi, I'm Jasmine.</title>
-	<link href="css/main.css" rel="stylesheet" type = "text/css">
-<!--   <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+  <title>Hi, I'm Jasmine.</title>
+  <link href="css/main.css" rel="stylesheet" type = "text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Google Analytics -->
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-71845192-1', 'auto');
-    ga('send', 'pageview');
+  ga('create', 'UA-71845192-1', 'auto');
+  ga('send', 'pageview');
   </script>
+  <!-- End Google Analytics -->
 
   <!-- Custom Fonts -->
-  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+  <!-- MDL JavaScript, jQuery -->
+  <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-pink.min.css">
+  <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   
+  crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-  <div id="content" class="container">
-    <div class="row">
-      <div class="col-md-4" style="width:65%;">
-        <p>Hi! I'm Jasmine. 
-        <p>I'm all about humans, technology, and creativity. Feel free to look at some of my <a href="html/portfolio_index.html">work</a>, or browse my <a href="http://blog.jmithani.com">blog</a>. I'm always working on something new, so my <a href="http://linkedin.com/in/jmithani">LinkedIn</a> and <a href="http://github.com/jmithani">Github</a> make up my most up-to-date resume. For a riveting livestream of my life (read: lots of retweets), you can catch up with me <a href="http://twitter.com/jazzmyth">@jazzmyth</a>. And of course, if you want to know a little more <a href="html/about.html">about me</a>, I have a nifty page set up for that too.</p>
+  <!-- Site Nav -->
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header mdl-layout__header--seamed">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span id="big-title" class="mdl-layout-title">jasmine mithani</span>
+        <span id="small-title" class="mdl-layout-title">jmithani</span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation. We hide it in small screens. -->
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
+          <a class="mdl-navigation__link" href="about.html">about</a>
+          <a class="mdl-navigation__link" href="#work">work</a>
+<!--           <a class="mdl-navigation__link" href="http://blog.jmithani.com">blog</a> -->
+        </nav>
       </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">jasmine mithani</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">about</a>
+        <a class="mdl-navigation__link" href="">work</a>
+        <a class="mdl-navigation__link" href="">blog</a>
+      </nav>
     </div>
-  </div>
 
-</body>
+    <main class="mdl-layout__content">
+      <div class="page-content">
+        <div id="intro">
+          <h3>Hi, I&#39;m Jasmine. Nice to meet you.</h3>
+          <p>I&#39;m a designer, developer, and researcher dedicated to combining art and technology to make 
+            the world a better place.</p>
+          </div>
+
+          <!-- Card Nav -->
+          <div class="card-nav">
+            <button id="nav-all" class="mdl-button mdl-js-button">All</button>
+            <button id="nav-art" class="mdl-button mdl-js-button">Art</button>
+            <button id="nav-code" class="mdl-button mdl-js-button">Code</button>
+            <button id="nav-design" class="mdl-button mdl-js-button">Design</button>
+            <button id="nav-research" class="mdl-button mdl-js-button">Research</button>
+            <button id="nav-ux" class="mdl-button mdl-js-button">UX</button>
+          </div>
+
+          <!-- Mobile Nav -->
+          <div id="work">Work</div>
+
+          <!-- Grid -->
+          <div class="content-grid mdl-grid">
+
+            <!--   <div class="mdl-cell mdl-cell--2-col"> -->
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-phone demo-card-image mdl-card wtm mdl-shadow--2dp design code ux all">
+              
+              <div class="mdl-card__actions">
+                <a href="wordsmatter.html">
+                  <div class="card-title"><span>words that matter</span></div>
+                  <div class="show-on-hover">
+                    <div class="card-tags"><span>design / code / ux</span></div>
+                    <div class="card-description"><span>Game demo for DoSomething.org to educate teens about unhealthy relationships.</span></div>
+                  </div><!-- show on hover -->
+                </div><!-- card actions -->
+              </a>
+            </div> <!-- demo card -->
+            <!--   </div> --> <!-- mdl-cell -->
+
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-phone demo-card-image mdl-card rcs mdl-shadow--2dp design ux all">
+              
+              <div class="mdl-card__actions">
+                <a href="careerservices.html">
+                  <div class="card-title"><span>reinventing career services</span></div>
+                  <div class="show-on-hover">
+                    <div class="card-tags"><span>design / ux</span></div>
+                    <div class="card-description"><span>Class project redesign of the UChicago Career Services structure to focus on career discovery.</span></div>
+                  </div> <!-- show on hover -->
+                </div> <!-- card actions -->
+              </a>
+            </div> <!-- demo card -->
+
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-phone demo-card-image mdl-card mdl-shadow--2dp dataviz research design code all">
+              <div class="mdl-card__actions">
+                <a href="dataviz.html">
+                  <div class="card-title"><span>data visualization</span></div>
+                  <div class="show-on-hover">
+                    <div class="card-tags"><span>code / design / research</span></div>
+                    <div class="card-description"><span>Data visualization projects using R and d3.js.</span></div>
+                  </div> <!-- show on hover -->
+                </div> <!-- card actions -->
+              </a>
+            </div> <!-- demo card -->
+
+            <!--   <div class="mdl-cell mdl-cell--2-col"> -->
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-phone demo-card-image mdl-card ftb mdl-shadow--2dp code ux all">
+              <div class="mdl-card__actions">
+                <a href="feedthebaby.html">
+                  <div class="card-title"><span>feed the baby</span></div>
+                  <div class="show-on-hover">
+                    <div class="card-tags"><span>code / ux</span></div>
+                    <div class="card-description"><span>Game released by DoSomething.org in order to encourage sign-ups for a campaign tackling teenage pregnancy.</span></div>
+                  </div> <!-- show on hover -->
+                </div> <!-- card actions -->
+              </a>
+            </div> <!-- demo card -->
+            <!--   </div> --> <!-- mdl-cell -->
+
+            <!--   <div class="mdl-cell mdl-cell--2-col"> -->
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-phone demo-card-image mdl-card vd mdl-shadow--2dp design art all" >
+              <div class="mdl-card__actions">
+                <a href="visualdesign.html">
+                  <div class="card-title"><span>visual design</span></div>
+                  <div class="show-on-hover">
+                    <div class="card-tags"><span>design / art</span></div>
+                    <div class="card-description"><span>Collection of art illustrating foundational design principles.</span></div>
+                  </div> <!-- show on hover -->
+                </div> <!-- card actions -->
+              </a>
+            </div> <!-- demo card -->
+            <!--   </div>  --><!-- mdl-cell -->
+
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-phone demo-card-image mdl-card mdl-shadow--2dp play research art all">
+              <div class="mdl-card__actions">
+                <a href="playing.html">
+                  <div class="card-title"><span>playing artist intervention</span></div>
+                  <div class="show-on-hover">
+                    <div class="card-tags"><span>research / art</span></div>
+                    <div class="card-description"><span>Game to simulate an artist intervention in a museum archive.</span></div>
+                  </div> <!-- show on hover -->
+                </div> <!-- card actions -->
+              </a>
+            </div> <!-- demo card -->
+
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-phone demo-card-image mdl-card sbd mdl-shadow--2dp design all">
+              <div class="mdl-card__actions">
+                <a href="sbserial.html">
+                  <div class="card-title"><span>sliced bread digital</span></div>
+                  <div class="show-on-hover">
+                    <div class="card-tags"><span>design</span></div>
+                    <div class="card-description"><span>Online serial created to accomodate works too long to be published in print.</span></div>
+                  </div> <!-- show on hover -->
+                </div> <!-- card actions -->
+              </a>
+            </div> <!-- demo card -->
+
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-phone demo-card-image mdl-card mdl-shadow--2dp mspres code art all">
+              <div class="mdl-card__actions">
+                <a href="dearmspresident.html">
+                  <div class="card-title"><span>dear ms. president</span></div>
+                  <div class="show-on-hover">
+                    <div class="card-tags"><span>code / art</span></div>
+                    <div class="card-description"><span>Remixed computational poetry with JavaScript.</span></div>
+                  </div> <!-- show on hover -->
+                </div> <!-- card actions -->
+              </a>
+            </div> <!-- demo card -->
+
+          </div> <!-- mdl-grid -->
+        </div> <!-- page-content -->
+      </main>
+    </div>
+
+
+  </body>
+
+  <script>
+
+  /* I know this code is repetitive, I'm working on refactoring it */
+
+  $(document).ready(function() {
+
+   $('#nav-ux').click(function() {
+    $('.mdl-card').each(function() {
+      if ($(this).hasClass('ux')) {
+        $(this).css('opacity', 1);
+      } else {
+        $(this).css('opacity', 0.1);
+      }
+    });
+  });
+
+   $('#nav-design').click(function() {
+    $('.mdl-card').each(function() {
+      if ($(this).hasClass('design')) {
+        $(this).css('opacity', 1);
+      } else {
+        $(this).css('opacity', 0.1);
+      }
+    });
+  });
+
+   $('#nav-code').click(function() {
+    $('.mdl-card').each(function() {
+      if ($(this).hasClass('code')) {
+        $(this).css('opacity', 1);
+      } else {
+        $(this).css('opacity', 0.1);
+      }
+    });
+  });
+
+   $('#nav-all').click(function() {
+    $('.mdl-card').each(function() {
+      if ($(this).hasClass('all')) {
+        $(this).css('opacity', 1);
+      } else {
+        $(this).css('opacity', 0.1);
+      }
+    });
+  });
+
+   $('#nav-research').click(function() {
+    $('.mdl-card').each(function() {
+      if ($(this).hasClass('research')) {
+        $(this).css('opacity', 1);
+      } else {
+        $(this).css('opacity', 0.1);
+      }
+    });
+  });
+
+   $('#nav-art').click(function() {
+    $('.mdl-card').each(function() {
+      if ($(this).hasClass('art')) {
+        $(this).css('opacity', 1);
+      } else {
+        $(this).css('opacity', 0.1);
+      }
+    });
+  });
+
+ });
+
+
+
+</script>
 
 </html>

@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+
+<head>
+  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+  <title>Data Visualization</title>
+  <link href="css/main.css" rel="stylesheet" type = "text/css">
+  <link href="css/about.css" rel="stylesheet" type = "text/css">
+  <link href="css/projectpage.css" rel="stylesheet" type = "text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Custom Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+  <!-- MDL JavaScript, jQuery -->
+  <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-pink.min.css">
+  <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   
+  crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- Site Nav -->
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header mdl-layout__header--seamed">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span id="big-title" class="mdl-layout-title">jasmine mithani</span>
+        <span id="small-title" class="mdl-layout-title">jmithani</span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation. We hide it in small screens. -->
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
+          <a class="mdl-navigation__link" href="about.html">about</a>
+          <a class="mdl-navigation__link" href="index.html#work">work</a>
+<!--           <a class="mdl-navigation__link" href="http://blog.jmithani.com">blog</a> -->
+        </nav>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">jasmine mithani</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">about</a>
+        <a class="mdl-navigation__link" href="">work</a>
+        <a class="mdl-navigation__link" href="">blog</a>
+      </nav>
+    </div>
+
+    <main class="mdl-layout__content">
+      <div class="page-content">
+        <img src="img/usa.PNG"></img>
+
+        <div class="about-text">
+          <h1>Data Visualization</h1>
+          <h2></h2>
+
+          <div class="title">> background</div>
+            <p>My interest in data visualization rose from my work in social justice and gaming. When researching the role of online interactivity influencing offline action, I discovered <a href=”http://explorableexplanations.com>Explorable Explanations</a>, a digital movement focused on active learning. Explorable Explanations are interactive blog posts or visualizations that teach a concept by doing. Much of the work of a social activist is advocacy; simultaneously raising awareness and communicating the urgency of the issue. This involves designing for communication, interpreting highly technical datasets in a digestible way, and clearly displaying insights gleaned from the data. Visualizations blend my interests in information and play, and challenge both my design and development skills.</p>
+
+            <p>Below are samples of works I have completed or am currently pursuing. I'm always open to project ideas, so if you want to talk please shoot me a message!</p>
+
+          <div class="horizontal">
+            <img src="img/usa-2.PNG"></img>
+          </div>
+
+          <div class="title">> visualizing USA data</div>
+          <p>This is the second project for a data visualization course I took during spring 2016. It is a collection of univariate and bivariate color maps of various USA data, coded in d3.js. The hexagon representation of the country is an open-source contribution from the NPR Graphics team. My partner and I built functions to convert that data into a color spectrum. The project was an exercise in interpreting numerical data into accurate, readable graphs using changing color value. The project is hosted live on <a href="https://jmithani.github.io/usa-hexagons/">Github</a>.
+
+          <div class="horizontal">
+            <img src="img/got.PNG"></img>
+          </div>
+          <div class="title">> sexual assault in game of thrones</div>
+          <p>While browsing online one day, I found an <a href="http://io9.gizmodo.com/someone-has-done-a-statistical-analysis-of-rape-in-game-1707037159">article</a> about someone who had counted and compared all acts of rape in the popular TV series &quot;Games of Thrones&quot; with its print counterpart, the <i>A Song of Ice and Fire</i> series. (See the Tumblr post <a href="http://tafkarfanfic.tumblr.com/post/119770640640/rape-in-asoiaf-vs-game-of-thrones-a-statistical">here</a>.) One thing I noticed right away from the descriptions is that often, the person assaulted was an unnamed woman, and the assaulter was a heavy-hitting bad guy.</p>
+          <p>This reminded me of readings on how violence against women is used as a backdrop to further male character development - in this case, to showcase how evil a character really is. From the article, many of the women who were assaulted were minor characters, with a rape occasionally being their only participation in the entire series.</p>
+
+          <p>In order to bring more attention to this, I wanted to create a more complete data set archiving not just sexual assault in “Game of Thrones,” but all sex scenes in the series in order to make comparisons between on-screen sex, significant male characters, and discarded female characters. Right now I am putting together a .csv data set using episode descriptions from the <a href="http://gameofthrones.wikia.com/wiki/Game_of_Thrones_Wiki">Game of Throne Wikia</a>. Once that is complete, I plan to visualize the data a) using network analysis to show which male characters commit the most assaults and whether they are represented as an antagonist in the series; b) interactivity in the network analysis to highlight unnamed female characters; and c) through bar charts to compare statistics on consensual and non-consensual sex scenes.</p>
+
+          <p>The image above is from a quick network analysis I wrote in R, which consists of the data provided in the analysis linked above. The primitive, undirected graph simply indicates that there are clusters of assaults all committed by a single, named male character. I look forward to fleshing out my ideas for visualizations in d3.js, especially including the new metadata I am adding from the data set I am building. </p>
+          </div>
+
+        </div>
+
+
+
+
+      </div> <!-- page-content -->
+    </main>
+  </div>
+
+
+</body>
+</html>
