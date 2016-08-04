@@ -133,7 +133,7 @@ p a:hover {
 }
 
 .demo-card-image.mdl-card.dataviz {
-  background: url('../img/usa.png') center / cover;
+  background: url('../img/usa.PNG') center / cover;
 }
 
 .demo-card-image > .mdl-card__actions {
