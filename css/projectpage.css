@@ -1,0 +1,85 @@
+/*.page-content img {
+  margin-left: 20%;
+  margin-right: 20%;
+}*/
+
+.about-text h1, .about-text h2 {
+  font-family: 'Inconsolata';
+  color: rgb(146, 96, 199);
+  margin: 0px;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.about-text h1 {
+  font-size: 2.25em;
+  margin-bottom: 0px;
+}
+
+.about-text h2 {
+  font-size: 1.75em;
+  margin-bottom: 15px;
+}
+
+.about-text .vertical {
+  margin-right: 35%;
+  margin-left: 35%;
+}
+
+.about-text .horizontal {
+  text-align: center;
+  font-size: 0.9em;
+  margin: 2%;
+}
+
+/*.page-content .about-text img {
+  margin-left: 15%;
+  margin-right: 0;
+  margin-bottom: 20px;
+}
+*/
+.about-text .double-pic-spacer {
+  margin: 20px;
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 0.9em;
+}
+
+#left img, #right img {
+  height: 250px;
+}
+/*
+#left {
+  float: left;
+  display: block;
+}
+
+#right {
+  float: right;
+  display: block;
+}*/
+
+#dialogue {
+  width: 200px;
+  height: auto;
+}
+
+#heaven {
+  height: 500px;
+  width: auto;
+}
+
+.page-content .about-text img #mobile1 {
+  float: left;
+}
+
+.page-content .about-text img #mobile2 {
+  float: right;
+}
+
+#wrapper {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
