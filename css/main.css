@@ -136,6 +136,10 @@ p a:hover {
   background: url('../img/usa.PNG') center / cover;
 }
 
+.demo-card-image.mdl-card.diso {
+  background: url('../img/disorientation.png') center / cover;
+}
+
 .demo-card-image > .mdl-card__actions {
   transition: all 0.5s linear;
   height: 56px;
