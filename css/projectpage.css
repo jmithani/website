@@ -69,3 +69,17 @@
   height: 500px;
   width: auto;
 }
+
+.page-content .about-text img #mobile1 {
+  float: left;
+}
+
+.page-content .about-text img #mobile2 {
+  float: right;
+}
+
+#wrapper {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
