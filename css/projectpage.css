@@ -21,6 +21,16 @@
   margin-bottom: 15px;
 }
 
+.about-text .title {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.about-text p {
+  font-size: 1.4em;
+  line-height: 1.5em;
+}
+
 .about-text .vertical {
   margin-right: 35%;
   margin-left: 35%;
@@ -82,4 +92,24 @@
   position: relative;
   display: inline-block;
   text-align: center;
+}
+
+#summary {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(146, 96, 199);
+}
+
+#summary p {
+  font-size: 1.4em;
+  /*font-weight: 700;*/
+  line-height: 1em;
+  margin: 0.5em;
+}
+
+#summary b {
+  font-weight: 700;
+  font-size: 1.1em;
 }
