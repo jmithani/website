@@ -22,8 +22,9 @@
 }
 
 .about-text .title {
-  font-size: 1.5em;
-  margin-bottom: 0.5em;
+  font-size: 2em;
+  margin-bottom: 0.2em;
+  font-family: 'Inconsolata';
 }
 
 .about-text p {
@@ -94,22 +95,27 @@
   text-align: center;
 }
 
-#summary {
-  margin-top: 2em;
-  margin-bottom: 2em;
-  border-style: solid;
+.summary {
+  margin: 2em 12% 2em 12%;
+/*  border-style: solid;
   border-width: 3px;
-  border-color: rgb(146, 96, 199);
+  border-color: rgb(146, 96, 199);*/
 }
 
-#summary p {
+.summary p {
   font-size: 1.4em;
   /*font-weight: 700;*/
-  line-height: 1em;
-  margin: 0.5em;
+  line-height: 1.1em;
+  margin: 0.2em;
 }
 
-#summary b {
+.summary b {
   font-weight: 700;
-  font-size: 1.1em;
+  font-size: 1.2em;
+  font-family: 'Inconsolata';
+}
+
+.summary i {
+  color: rgb(146, 96, 199);
+  font-style: normal;
 }
