@@ -23,6 +23,7 @@
 
 .about-text .title {
   font-size: 2em;
+  margin-top: 1.5em;
   margin-bottom: 0.2em;
   font-family: 'Inconsolata';
 }
@@ -118,4 +119,12 @@
 .summary i {
   color: rgb(146, 96, 199);
   font-style: normal;
+}
+
+.picture {
+  text-align: center;
+}
+
+img {
+  margin-bottom: 16px;
 }

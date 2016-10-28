@@ -265,3 +265,9 @@ div.mdl-cell.mdl-cell--3-col.demo-card-image.mdl-card.mdl-shadow--2dp.play.resea
 .mdl-card__actions a {
   text-decoration: none;
 }
+
+img .img-responsive {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
