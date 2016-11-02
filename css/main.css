@@ -140,6 +140,18 @@ p a:hover {
   background: url('../img/disorientation.png') center / cover;
 }
 
+.demo-card-image.mdl-card.gg {
+  background: url('../img/gaali.PNG') center / cover;
+}
+
+.demo-card-image.mdl-card.ssw {
+  background: url('../img/pd1.png') center / cover;
+}
+
+.demo-card-image.mdl-card.quarter {
+  background: url('../img/quarter.PNG') center / cover;
+}
+
 .demo-card-image > .mdl-card__actions {
   transition: all 0.5s linear;
   height: 56px;
