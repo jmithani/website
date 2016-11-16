@@ -46,7 +46,7 @@ body {
 }
 
 .mdl-layout__content #intro p {
-  font-family: 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #555;
   font-size: 1.75em;
   line-height: 1.5;
@@ -62,7 +62,7 @@ body {
 }
 
 .mdl-layout__content #intro a {
-  font-family: 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #555;
   text-decoration: underline;
   font-size: 1em;
@@ -80,8 +80,9 @@ body {
   font-weight: 300;
 }
 
+
 p {
-  font-family: 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #555;
   font-size: 28px;
   line-height: 2;
@@ -112,7 +113,7 @@ p a:hover {
 
 .mdl-layout__content .card-nav .mdl-button {
   font-size: 1.25em;
-  font-family: 'Droid Sans';
+  font-family: 'Open Sans';
   color: #555;
   text-transform: lowercase;
 }
@@ -121,8 +122,8 @@ p a:hover {
 
 .content-grid {
   padding: 10px;
-  margin-right: 10% !important;
-  margin-left: 10% !important;
+  /*margin-right: 25% !important;*/
+  margin-left: 18% !important;
 }
 
 /* Card Style */
@@ -256,7 +257,7 @@ div.mdl-cell.mdl-cell--3-col.demo-card-image.mdl-card.mdl-shadow--2dp.play.resea
   color: #fff;
   font-size: 1em;
   font-weight: 500;
-  font-family: 'Droid Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-align: right;
   position: absolute;
   right: 16px;
@@ -274,7 +275,7 @@ div.mdl-cell.mdl-cell--3-col.demo-card-image.mdl-card.mdl-shadow--2dp.play.resea
 
   #work {
     font-size: 1.25em;
-    font-family: 'Droid Sans';
+    font-family: 'Open Sans';
     color: #555;
     text-transform: lowercase;
     text-align: center;
