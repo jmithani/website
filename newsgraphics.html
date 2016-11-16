@@ -53,7 +53,7 @@
         <img src="img/usa.PNG"></img>
 
         <div class="about-text">
-          <h1>Data Visualization</h1>
+          <h1>News Graphics</h1>
           <h2></h2>
 
           <div class="summary">
@@ -61,7 +61,7 @@
             <br />infographics, Adobe Illustrator</p>
 
             <p><br /><b>$print <i>school librarians, shelved</i></b>
-            <br />map, data analysis, Adobe Illustrator, Google Fusion Tables</p>
+            <br />map, data analysis, Adobe Illustrator, Google Fusion Tables, Google Maps API</p>
           </div>
 
           <div class="title">$background</div>
@@ -72,7 +72,7 @@
           <div class="picture">
             <img class="img-responsive" src="img/pd2.png"></img>
           </div>
-          <p>&quot;Cook County’s public defenders are overworked and underfunded. But criminal justice reform won’t succeed without them.&quot; &#8211; <a href="http://southsideweekly.com/a-broken-shield/">A Broken Shield</a>, Eleanore Catolico. </p>
+          <p>&quot;Cook County’s public defenders are overworked and underfunded. But criminal justice reform won’t succeed without them.&quot; &#8211; Eleanore Catolico, <a href="http://southsideweekly.com/a-broken-shield/">A Broken Shield</a> </p>
 
           <div class="picture">
             <img class="img-responsive" src="img/pd1.png"></img>
@@ -81,48 +81,15 @@
 
           <div class="title">$school librarians, shelved</div>
 
-          <p>As I built out my data visualization skillset, I wanted to learn how to create maps. I wanted to visualize meaningful data, and chose to utilize the data from the Chronicle of Higher Education’s <a href="http://projects.chronicle.com/titleix/">Title IX Tracker</a> API.</p>
-
-          <p>Right now, I’ve imported the data into a CSV file, merged it with IPEDS data to determine coordinates of each school with R, and mapped it geographically with d3 projections. I plan to add interactivity by allowing users to toggle state data (including population, education level, and income) as well as school data (money spent on sports, Title IX violations, US News Top Colleges).</p>
-
           <div class="picture">
-            <img class="img-responsive" src="img/titleix.PNG"></img>
-            <p class="description">Geographic distribution of Title IX cases.</p>
+            <img class="img-responsive" src="img/librarians.png"></img>
           </div>
 
-          <p>I chose to use this data to familiarize myself with the state of Title IX investigations today in preparation for a project at a later date. It’s no secret that UChicago, my school, has been convicted of gross Title IX violations. In a step to remedy this, a campus climate survey conducted in 2015 collected data on sexual misconduct amongst members of the UChicago community. In the future, I’d like to make easily-understood visualizations of this data, and compare it that gathered from other colleges.</p>
+          <p>&quot; CTU reported that in 2015, seventy-five percent of majority-African-American schools didn’t have a librarian, compared to sixteen percent of schools with a less than fifty percent African-American population. CPS’s own demographic analyses, conducted each year to determine quotas for selective enrollment schools, and defined using census data on socioeconomic status and other factors affecting student achievement, can be used to highlight the systemic disadvantages in library access.&quot; &#8211; Anne Li, <a href="http://southsideweekly.com/school-librarians-shelved/">School Librarians, Shelved</a></p>
 
-          <p>Working on this map visualization has introduced me to the world of Geographic Information Systems and cartography, subjects I previously knew nothing about. It’s spurred an ongoing research interest in how space and place are visualized, and the politics that can bias maps.</p>
+          <p>For this map, I used the open-source <a href="http://cpstiers.opencityapps.org/">CPS Tiers Map</a> by Open City Apps as well as public data on the locations of public schools in Chicago. I pulled all the data on high schools, then cross referenced whether each had a librarian based on a PDF report put out by the Chicago Teachers Union. I separated the data sets of with or without librarians into two different fusion tables, and finally I combined all three fusion tables into one interactive map. For the print version, I then screenshotted the map and hand edited the icons and legend with Adobe Illustrator.</p>
 
-          <p>An interesting problem I am working to design around is the clustering of schools on the east coast. I showed my map to a friend, who was horrified by the apparent plague of sexual assault in New England. I explained that there isn’t an epidemic (or there might be, but we need more information) but rather a larger number of colleges and higher population density on the east coast. I’m going to experiment with eliminating this conclusion by highlighting state population data, or college density by state.</p>
-
-          <p>Source code, including data sets, available on <a href="https://github.com/jmithani/title-ix-viz">Github</a>.</p>
-
-                    <div class="title">$sexual violence in game of thrones</div>
-          <div class="picture">
-            <img src="img/rapeASOIAF.PNG"></img>
-            <p class="description">beginning of the tumblr post that inspired this project</p>
-          </div>
-          <p>While browsing online one day, I found an <a href="http://io9.gizmodo.com/someone-has-done-a-statistical-analysis-of-rape-in-game-1707037159">article</a> about someone who had counted and compared all acts of rape in the popular TV series &quot;Games of Thrones&quot; (GOT) with its print counterpart, the <i>A Song of Ice and Fire</i> (ASOIAF) series. (See the Tumblr post <a href="http://tafkarfanfic.tumblr.com/post/119770640640/rape-in-asoiaf-vs-game-of-thrones-a-statistical">here</a>.) One thing I noticed right away from the descriptions is that often, the person assaulted was an unnamed woman, and the assaulter was a heavy-hitting bad guy.</p>
-
-          <div class="picture">
-            <img src="img/csv.PNG"></img>
-            <p class="description">csv file I made from tafkar's data on rape in ASAOIF</p>
-          </div>
-
-          <p>This reminded me of readings on how violence against women is used as a backdrop to further male character development - in this case, to showcase how evil a character really is. From the article, many of the women who were assaulted were minor characters, with a rape occasionally being their only participation in the entire series.</p>
-
-          <div class="picture">
-            <img src="img/got.PNG"></img>
-            <p class="description">network of rapes in ASOIAF book series from tafkar's data set</p>
-          </div>
-
-          <p>The image above is from a quick network analysis I wrote in R, which consists of the data provided in the analysis linked above. The primitive, undirected graph simply indicates that there are clusters of assaults all committed by a single, named male character.</p>
-
-          <p>In order to bring more attention to this, I am creating a more complete data set archiving not just sexual assault in &quot;Game of Thrones,&quot; but all sex scenes in the series in order to make comparisons between on-screen sex, significant male characters, and discarded female characters. Right now I am putting together a .csv data set using episode descriptions from the <a href="http://gameofthrones.wikia.com/wiki/Game_of_Thrones_Wiki">Game of Throne Wikia</a>.</p>
-          <p>Once that is complete, I plan to visualize the data a) using network analysis to show which male characters commit the most assaults and whether they are represented as an antagonist in the series; b) interactivity in the network analysis to highlight unnamed female characters; and c) through bar charts to compare statistics on consensual and non-consensual sex scenes. I look forward to fleshing out my ideas for visualizations in d3.js, especially including the new metadata I am adding from the data set I am building.</p>
-
-          
+          <p>Shout out to the folks in the <a href="http://chihacknight.org">ChiHackNight</a> #mapping Slack channel (several of who helped made the original Open City App!) for their guidance into the world of Google Fusion Tables.</p> 
 
         </div>
 
