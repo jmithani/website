@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+
+<head>
+  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'>
+  <title>Data Visualization</title>
+  <link href="css/main.css" rel="stylesheet" type = "text/css">
+  <link href="css/about.css" rel="stylesheet" type = "text/css">
+  <link href="css/projectpage.css" rel="stylesheet" type = "text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Custom Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+
+  <!-- MDL JavaScript, jQuery -->
+  <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-pink.min.css">
+  <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   
+  crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- Site Nav -->
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header mdl-layout__header--seamed">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span id="big-title" class="mdl-layout-title">jasmine mithani</span>
+        <span id="small-title" class="mdl-layout-title">jmithani</span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation. We hide it in small screens. -->
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
+          <a class="mdl-navigation__link" href="about.html">about</a>
+          <a class="mdl-navigation__link" href="index.html">index</a>
+          <a class="mdl-navigation__link" href="http://blog.jmithani.com">blog</a>
+        </nav>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">jasmine mithani</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">about</a>
+        <a class="mdl-navigation__link" href="">work</a>
+        <a class="mdl-navigation__link" href="">blog</a>
+      </nav>
+    </div>
+
+    <main class="mdl-layout__content">
+      <div class="page-content">
+        <img src="img/usa.PNG"></img>
+
+        <div class="about-text">
+          <h1>News Graphics</h1>
+          <h2></h2>
+
+          <div class="summary">
+            <p><b>$print <i>a broken shield</i></b>
+            <br />infographics, Adobe Illustrator</p>
+
+            <p><br /><b>$print <i>school librarians, shelved</i></b>
+            <br />map, data analysis, Adobe Illustrator, Google Fusion Tables, Google Maps API</p>
+          </div>
+
+          <div class="title">$background</div>
+            <p>I joined the staff of the <a href="http://southsideweekly.com">South Side Weekly</a> as a graphics contributor in September 2016. I specialize in providing infographics and data visualizations for both print and online editions. I've also volunteered to help writers obtain and analyze data for their stories.</p>
+
+          <div class="title">$a broken shield</div>
+
+          <div class="picture">
+            <img class="img-responsive" src="img/pd2.png"></img>
+          </div>
+          <p>&quot;Cook County’s public defenders are overworked and underfunded. But criminal justice reform won’t succeed without them.&quot; &#8211; Eleanore Catolico, <a href="http://southsideweekly.com/a-broken-shield/">A Broken Shield</a> </p>
+
+          <div class="picture">
+            <img class="img-responsive" src="img/pd1.png"></img>
+          </div>
+          <p>I created a bar chart to easily communicate the extent to which Cook County public defenders were overextending themselves, highlighting the maximum case load they are supposed to be working with. I also pulled out statistics from the article (52% and 23%) and translated them into quantities of people (5 people versus 2 people) in order to show the human impact of a private versus public attorney.</p>
+
+          <div class="title">$school librarians, shelved</div>
+
+          <div class="picture">
+            <img class="img-responsive" src="img/librarians.png"></img>
+          </div>
+
+          <p>&quot; CTU reported that in 2015, seventy-five percent of majority-African-American schools didn’t have a librarian, compared to sixteen percent of schools with a less than fifty percent African-American population. CPS’s own demographic analyses, conducted each year to determine quotas for selective enrollment schools, and defined using census data on socioeconomic status and other factors affecting student achievement, can be used to highlight the systemic disadvantages in library access.&quot; &#8211; Anne Li, <a href="http://southsideweekly.com/school-librarians-shelved/">School Librarians, Shelved</a></p>
+
+          <p>For this map, I used the open-source <a href="http://cpstiers.opencityapps.org/">CPS Tiers Map</a> by Open City Apps as well as public data on the locations of public schools in Chicago. I pulled all the data on high schools, then cross referenced whether each had a librarian based on a PDF report put out by the Chicago Teachers Union. I separated the data sets of with or without librarians into two different fusion tables, and finally I combined all three fusion tables into one interactive map. For the print version, I then screenshotted the map and hand edited the icons and legend with Adobe Illustrator.</p>
+
+          <p>Shout out to the folks in the <a href="http://chihacknight.org">ChiHackNight</a> #mapping Slack channel (several of who helped made the original Open City App!) for their guidance into the world of Google Fusion Tables.</p> 
+
+        </div>
+
+
+
+
+      </div> <!-- page-content -->
+    </main>
+  </div>
+
+
+</body>
+</html>

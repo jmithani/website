@@ -1,0 +1,167 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<!--
+Love Letters reimplementation
+copyright (c) 2014 Nick Montfort <nickm@nickm.com>
+based on a 1952 program by Christopher Strachey
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
+IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+Updated 10 March 2015 to correct the word lists. Sources are photographs
+of Christoper Stachey's notes in the Bodleian Library from J.R. Carpenter
+and table 14.1 in Noah Wardrip-Fruin's article "Digital Media Archaeology."
+-->
+<style type="text/css">
+/* <![CDATA[ */
+body {
+ background:#FFF;
+ color:#ccc;
+ margin:0 0 0 18pt;
+ font-family:Optima, sans-serif;
+ font-size:16pt;
+}
+
+a {
+ color:#117;
+ text-decoration:none;
+}
+
+#main {
+ padding-top:18px;
+ width:70%;
+}
+
+#main div {
+ font-weight:bold;
+ padding-bottom:9px;
+}
+
+/*#info {
+ top:0;
+ right:0;
+ bottom:0;
+ position:absolute;
+ height:100%;
+ width:25%;
+ color:#333;
+ background:#999;
+ margin-left:6px;
+ border-left:thin #000 solid;
+ border-bottom:thin #000 solid;
+ padding:9px;
+ font-size:80%
+}*/
+
+/* ]]> */
+</style>
+<script type="text/javascript">
+
+var t = 0,
+
+colors = ['#b30000', '#0000b3'],
+
+first = ['DEAR'],
+
+second = ['MS. PRESIDENT,'],
+
+nouns = ['YOU'],
+
+adverbs = ['AFFECTIONATELY', 'ANXIOUSLY', 'ARDENTLY', 'AVIDLY', 'BEAUTIFULLY', 'BREATHLESSLY', 'BURNINGLY', 'COVETOUSLY', 'CURIOUSLY', 'DEVOTEDLY', 'EAGERLY', 'FERVENTLY', 'FONDLY', 'IMPATIENTLY', 'KEENLY', 'LOVINGLY', 'PASSIONATELY', 'SEDUCTIVELY', 'TENDERLY', 'WINNINGLY', 'WISTFULLY'],
+
+actions = ['', 'DO NOT', 'DO'],
+
+verbs = ['EXIST', 'LEGISLATE', 'RULE', 'SUCCEED', 'FAIL'];
+
+function rand_range(maximum) {
+    "use strict";
+    return Math.floor(Math.random() * (maximum + 1));
+}
+
+function choose(array) {
+    "use strict";
+    return array[rand_range(array.length - 1)];
+}
+
+function maybe(words) {
+    "use strict";
+    if (Math.random() > 0.3) {
+        return ' ' + choose(words);
+    }
+    return '';
+}
+
+function longer() {
+    "use strict";
+    return choose(nouns) + maybe(adverbs) + ' ' + choose(actions) + ' ' + choose(verbs) + '. ';
+}
+
+function shorter() {
+    "use strict";
+    return choose(nouns) + ' ' + choose(actions) + ' ' + choose(verbs) + '. ';
+}
+
+function letter() {
+    "use strict";
+    var i, type, you_are = false, text = '';
+    text = text + choose(first) + ' ' + choose(second) + '<br /><br />';
+
+    for (i = 0; i < 5; i = i + 1) {
+        type = choose(['longer', 'shorter']);
+        if (type === 'longer') {
+            text = text + longer();
+        } else {
+            if (you_are) {
+                text = text.slice(0, -1) + shorter();
+            } else {
+                text = text + shorter();
+            }
+        }
+    }
+
+    text = text + '<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' + 'SINCERELY,' + '<br /><br />' + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;J.W.M.';
+    return text;
+}
+
+function litany() {
+    "use strict";
+    var last, main = document.getElementById('main');
+    if (4 > t) {
+        t += 1;
+    } else {
+        main.removeChild(document.getElementById('main').firstChild);
+    }
+    last = document.createElement('div');
+    last.style.color = choose(colors);
+    last.innerHTML = letter();
+    main.appendChild(last);
+}
+
+function produce_litany() {
+    "use strict";
+    litany();
+    setInterval(litany, 5000);
+}
+
+</script>
+  <title>Dear Ms. President</title>
+</head>
+
+<body onload="produce_litany();">
+
+<div id="main"></div>
+</body>
+</html>

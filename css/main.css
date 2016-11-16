@@ -2,10 +2,101 @@ body {
   background-color: white;
 }
 
-#content {
-  padding-left: 5%;
-  margin-top: 2%;
+/* Site Nav */
+
+/*.demo-layout-transparent {
+  background: url('../assets/demos/transparent.jpg') center / cover;
+}*/
+
+.mdl-layout .mdl-layout__header {
+  background-color: #FFF;
 }
+
+.demo-layout-transparent .mdl-layout__drawer-button {
+  color: #555;
+}
+
+.mdl-layout__header-row {
+  padding-left: 2% !important;
+  padding-right: 2% !important;
+}
+
+.mdl-layout__header-row .mdl-layout-title {
+  font-family: 'Inconsolata';
+  color: rgb(146, 96, 199);
+  font-size: 2em;
+}
+
+.mdl-layout__header-row .mdl-navigation__link {
+  color: rgb(146, 96, 199) !important;
+  font-family: 'Inconsolata';
+  font-size: 1.25em;
+}
+
+.mdl-layout__content #intro h3 {
+  font-family: 'Inconsolata';
+  color: rgb(146, 96, 199);
+  font-size: 3.5em;
+  line-height: 1;
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-bottom: 0.5em;
+  text-align: left;
+  font-weight: 500;
+}
+
+.mdl-layout__content #intro p {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #555;
+  font-size: 1.75em;
+  line-height: 1.5;
+  margin-right: 15%;
+  margin-left: 15%;
+  text-align: left;
+}
+
+@media (max-width: 500px) {
+  .mdl-layout__content #intro h3 {
+    margin-left: 10%;
+    margin-bottom: 0.25em;
+  }
+
+  .mdl-layout__content #intro p {
+    font-size: 1.5em;
+    line-height: 1.5;
+    margin-left: 10%;
+  }
+
+  .mdl-layout__content .page-content .card-heading {
+    margin-top: 0.5em;
+  }
+}
+
+.mdl-layout__content #intro p b {
+  font-weight: 300;
+  color: rgb(146, 96, 199);
+  
+}
+
+.mdl-layout__content #intro a {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #555;
+  text-decoration: underline;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.mdl-layout__content .page-content .card-heading {
+  font-size: 2em;
+  font-family: 'Inconsolata';
+  color: rgb(146, 96, 199);
+  text-transform: lowercase;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-weight: 300;
+}
+
 
 p {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -25,4 +116,192 @@ p a {
 
 p a:hover {
   text-decoration: underline;
+}
+
+/* Card Nav Style */
+
+/*.mdl-layout {
+  width: 80%;
+  right: 10%;
+  left: 10%;
+  margin-bottom: 10px;
+  position: relative;
+}*/
+
+.mdl-layout__content .card-nav .mdl-button {
+  font-size: 1.25em;
+  font-family: 'Open Sans';
+  color: #555;
+  text-transform: lowercase;
+}
+
+/* Card Style */
+.demo-card-image.mdl-card.vd {
+  background: url('../img/Tulip.jpg') center / cover;
+}
+
+.demo-card-image.mdl-card.wtm {
+  background: url('../img/words-that-matter.PNG') center / cover;
+}
+
+.demo-card-image.mdl-card.ftb {
+  background: url('../img/feed-the-baby.png') center / cover;
+}
+
+.demo-card-image.mdl-card.rcs {
+  background: url('../img/wip.jpg') center / cover;
+}
+
+.demo-card-image.mdl-card.sbd {
+  background: url('../img/sbdigital.PNG') center / cover;
+}
+
+.demo-card-image.mdl-card.twine {
+  background: url('../img/twine_meta.png') center / cover;
+}
+
+.demo-card-image.mdl-card.mspres {
+  background: url('../img/dearmspresident.png') center / cover;
+}
+
+.demo-card-image.mdl-card.play {
+  background: url('../img/tcc.png') center / cover;
+}
+
+.demo-card-image.mdl-card.dataviz {
+  background: url('../img/usa.PNG') center / cover;
+}
+
+.demo-card-image.mdl-card.diso {
+  background: url('../img/disorientation.PNG') center / cover;
+}
+
+.demo-card-image.mdl-card.gg {
+  background: url('../img/gaali.PNG') center / cover;
+}
+
+.demo-card-image.mdl-card.ssw {
+  background: url('../img/pd1.png') center / cover;
+}
+
+.demo-card-image.mdl-card.quarter {
+  background: url('../img/quarter.PNG') center / cover;
+}
+
+.cards-wrapper {
+  text-align: center;
+}
+
+.demo-card-image.mdl-card {
+  display: inline-block;
+}
+
+.demo-card-image > .mdl-card__actions {
+  transition: all 0.5s linear;
+  height: 56px;
+  background: rgba(146, 96, 199, 0.8);
+  margin-top: 200px;
+/*  display: flex;
+  align-items: right;*/
+}
+
+.card-title {
+  color: #fff;
+  font-size: 1.4em;
+/*  font-weight: 700;*/
+  font-family: 'Inconsolata', monospace;
+  text-align: right;
+/*  align-items: flex-start;*/
+  padding-top: 8px;
+}
+
+/* Adjustments for 2-line card titles */
+
+/*div.demo-card-image.mdl-card.rcs.mdl-shadow--2dp.design.ux.all div.mdl-card__actions div.card-title {
+  padding-top: 0px;
+}
+
+div.demo-card-image.mdl-card.mdl-shadow--2dp.play.research.art.all div.mdl-card__actions div.card-title {
+  padding-top: 0px;
+}*/
+
+.demo-card-image.play:hover .show-on-hover .card-tags,
+.demo-card-image.rcs:hover .show-on-hover .card-tags {
+  margin-top: 48px;
+}
+
+.demo-card-image.play:hover .show-on-hover .card-description,
+.demo-card-image.rcs:hover .show-on-hover .card-description {
+  margin-top: 64px;
+}
+
+/* End adjustments */
+
+.card-tags {
+  display: none;
+}
+
+.card-description {
+  display: none;
+}
+
+.demo-card-image:hover > .mdl-card__actions {
+  height: 256px;
+  background: rgba(146, 96, 199, 0.8);
+  margin-top: 0px;
+}
+
+.demo-card-image:hover .card-title {
+  position: absolute;
+  right: 8px;
+  margin-bottom: 10px;
+}
+
+.demo-card-image:hover .show-on-hover .card-tags {
+  display: inline;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: 'Inconsolata', monospace;
+  position: absolute;
+  right: 16px;
+  margin-top: 32px;
+  margin-bottom: 10px;
+}
+
+.demo-card-image:hover .show-on-hover .card-description {
+  display: inline;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  text-align: right;
+  position: absolute;
+  right: 16px;
+  margin-top: 48px;
+}
+
+/* Changing the header depending on screen size */
+
+@media (max-width: 500px) {
+
+  #big-title {
+    display: none;
+  }
+}
+
+@media (min-width: 501px) {
+
+  #small-title {
+    display: none;
+  }
+}
+
+.mdl-button {
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.mdl-card__actions a {
+  text-decoration: none;
 }
