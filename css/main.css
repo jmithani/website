@@ -34,28 +34,54 @@ body {
 }
 
 .mdl-layout__content #intro h3 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #555;
-  font-size: 2.25em;
-  line-height: 1.5;
-  margin-right: 10%;
-  margin-left: 10%;
-  margin-bottom: 5px;
-  text-align: center;
+  font-family: 'Inconsolata';
+  color: rgb(146, 96, 199);
+  font-size: 3.5em;
+  line-height: 1;
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-bottom: 0.5em;
+  text-align: left;
+  font-weight: 500;
 }
 
 .mdl-layout__content #intro p {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #555;
   font-size: 1.75em;
   line-height: 1.5;
   margin-right: 15%;
   margin-left: 15%;
+  text-align: left;
+}
+
+.mdl-layout__content #intro p b {
+  font-weight: 300;
+  color: rgb(146, 96, 199);
+  
+}
+
+.mdl-layout__content #intro a {
+  font-family: 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #555;
+  text-decoration: underline;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.mdl-layout__content .page-content .card-heading {
+  font-size: 2em;
+  font-family: 'Inconsolata';
+  color: rgb(146, 96, 199);
+  text-transform: lowercase;
   text-align: center;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-weight: 300;
 }
 
 p {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #555;
   font-size: 28px;
   line-height: 2;
@@ -86,7 +112,7 @@ p a:hover {
 
 .mdl-layout__content .card-nav .mdl-button {
   font-size: 1.25em;
-  font-family: 'Open Sans';
+  font-family: 'Droid Sans';
   color: #555;
   text-transform: lowercase;
 }
@@ -230,7 +256,7 @@ div.mdl-cell.mdl-cell--3-col.demo-card-image.mdl-card.mdl-shadow--2dp.play.resea
   color: #fff;
   font-size: 1em;
   font-weight: 500;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Droid Sans', sans-serif;
   text-align: right;
   position: absolute;
   right: 16px;
@@ -248,7 +274,7 @@ div.mdl-cell.mdl-cell--3-col.demo-card-image.mdl-card.mdl-shadow--2dp.play.resea
 
   #work {
     font-size: 1.25em;
-    font-family: 'Open Sans';
+    font-family: 'Droid Sans';
     color: #555;
     text-transform: lowercase;
     text-align: center;
