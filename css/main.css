@@ -34,14 +34,15 @@ body {
 }
 
 .mdl-layout__content #intro h3 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #555;
-  font-size: 2.25em;
-  line-height: 1.5;
-  margin-right: 10%;
-  margin-left: 10%;
-  margin-bottom: 5px;
-  text-align: center;
+  font-family: 'Inconsolata';
+  color: rgb(146, 96, 199);
+  font-size: 3.5em;
+  line-height: 1;
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-bottom: 0.5em;
+  text-align: left;
+  font-weight: 500;
 }
 
 .mdl-layout__content #intro p {
@@ -51,8 +52,51 @@ body {
   line-height: 1.5;
   margin-right: 15%;
   margin-left: 15%;
-  text-align: center;
+  text-align: left;
 }
+
+@media (max-width: 500px) {
+  .mdl-layout__content #intro h3 {
+    margin-left: 10%;
+    margin-bottom: 0.25em;
+  }
+
+  .mdl-layout__content #intro p {
+    font-size: 1.5em;
+    line-height: 1.5;
+    margin-left: 10%;
+  }
+
+  .mdl-layout__content .page-content .card-heading {
+    margin-top: 0.5em;
+  }
+}
+
+.mdl-layout__content #intro p b {
+  font-weight: 300;
+  color: rgb(146, 96, 199);
+  
+}
+
+.mdl-layout__content #intro a {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #555;
+  text-decoration: underline;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.mdl-layout__content .page-content .card-heading {
+  font-size: 2em;
+  font-family: 'Inconsolata';
+  color: rgb(146, 96, 199);
+  text-transform: lowercase;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-weight: 300;
+}
+
 
 p {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -89,14 +133,6 @@ p a:hover {
   font-family: 'Open Sans';
   color: #555;
   text-transform: lowercase;
-}
-
-/* Grid Style */
-
-.content-grid {
-  padding: 10px;
-  margin-right: 10% !important;
-  margin-left: 10% !important;
 }
 
 /* Card Style */
@@ -152,6 +188,14 @@ p a:hover {
   background: url('../img/quarter.PNG') center / cover;
 }
 
+.cards-wrapper {
+  text-align: center;
+}
+
+.demo-card-image.mdl-card {
+  display: inline-block;
+}
+
 .demo-card-image > .mdl-card__actions {
   transition: all 0.5s linear;
   height: 56px;
@@ -163,7 +207,7 @@ p a:hover {
 
 .card-title {
   color: #fff;
-  font-size: 1.25em;
+  font-size: 1.4em;
 /*  font-weight: 700;*/
   font-family: 'Inconsolata', monospace;
   text-align: right;
@@ -173,13 +217,13 @@ p a:hover {
 
 /* Adjustments for 2-line card titles */
 
-div.mdl-cell.mdl-cell--3-col.demo-card-image.mdl-card.rcs.mdl-shadow--2dp.design.ux.all div.mdl-card__actions div.card-title {
+/*div.demo-card-image.mdl-card.rcs.mdl-shadow--2dp.design.ux.all div.mdl-card__actions div.card-title {
   padding-top: 0px;
 }
 
-div.mdl-cell.mdl-cell--3-col.demo-card-image.mdl-card.mdl-shadow--2dp.play.research.art.all div.mdl-card__actions div.card-title {
+div.demo-card-image.mdl-card.mdl-shadow--2dp.play.research.art.all div.mdl-card__actions div.card-title {
   padding-top: 0px;
-}
+}*/
 
 .demo-card-image.play:hover .show-on-hover .card-tags,
 .demo-card-image.rcs:hover .show-on-hover .card-tags {
@@ -237,22 +281,9 @@ div.mdl-cell.mdl-cell--3-col.demo-card-image.mdl-card.mdl-shadow--2dp.play.resea
   margin-top: 48px;
 }
 
-.card-nav {
-  text-align: center;
-}
+/* Changing the header depending on screen size */
 
 @media (max-width: 500px) {
-  .card-nav {
-    display: none;
-  }
-
-  #work {
-    font-size: 1.25em;
-    font-family: 'Open Sans';
-    color: #555;
-    text-transform: lowercase;
-    text-align: center;
-  }
 
   #big-title {
     display: none;
@@ -260,9 +291,6 @@ div.mdl-cell.mdl-cell--3-col.demo-card-image.mdl-card.mdl-shadow--2dp.play.resea
 }
 
 @media (min-width: 501px) {
-  #work {
-    display: none;
-  }
 
   #small-title {
     display: none;
