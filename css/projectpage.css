@@ -4,9 +4,13 @@
   font-family: 'vollkornregular';
 }
 
+/* Masthead picture */
 .page-content .about-text img {
   height: 300px;
   margin-top: 10px;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-bottom: 20px;
 }
 
 .page-content a {
@@ -78,13 +82,6 @@
   line-height: 1.5em;
 }
 
-/* Masthead picture */
-.page-content .about-text img {
-  margin-left: 15%;
-  margin-right: 0;
-  margin-bottom: 20px;
-}
-
 .page-content .double-pic-spacer {
   margin: 20px;
   text-align: center;
@@ -103,14 +100,6 @@
   height: 500px;
   width: auto;
 }
-/*
-.page-content .about-text img #mobile1 {
-  float: left;
-}
-
-.page-content .about-text img #mobile2 {
-  float: right;
-}*/
 
 #wrapper {
   position: relative;
@@ -120,10 +109,6 @@
 
 .picture {
   text-align: center;
-}
-
-img {
-  margin-bottom: 16px;
 }
 
 .img-responsive {
@@ -140,6 +125,6 @@ ol {
 
 .description {
   text-align: center;
-  font-size: 0.9em !important;
+  font-size: 1.1em !important;
   margin: 2%;
 }
