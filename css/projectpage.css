@@ -4,12 +4,23 @@
   font-family: 'vollkornregular';
 }
 
+.page-content {
+  text-align: left;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 20px;
+}
+
+.page-content .about-text {
+    text-align: center;
+}
+
 /* Masthead picture */
 .page-content .about-text img {
   height: 300px;
   margin-top: 10px;
-  margin-right: 20%;
-  margin-left: 20%;
+/*  margin-right: 20%;
+  margin-left: 20%;*/
   margin-bottom: 20px;
 }
 
@@ -21,22 +32,19 @@
 }
 
 
-.page-content {
-  text-align: left;
-  margin-right: 15%;
-  margin-left: 15%;
-  margin-top: 20px;
-}
-
-
 @media (max-width: 500px) {
   .about-text {
     margin-right: 10%;
     margin-left: 10%;
   }
 
-  .page-content img {
+  .page-content .about-text img {
     height: 150px;
+  }
+
+  .page-content {
+    margin-right: 10%;
+    margin-right: 10%;
   }
 }
 
@@ -48,7 +56,7 @@
 
 /* END about.css */
 
-.about-text h1, .about-text h2 {
+.about-text h1, .about-text h2, .about-text h3 {
   font-family: 'webfontbold';
   color: rgb(146, 96, 199);
   margin: 0px;
@@ -65,6 +73,13 @@
 .about-text h2 {
   font-size: 2em;
   margin-bottom: 15px;
+}
+
+.about-text h3 {
+  color: rgba(85, 85, 85, 0.8);
+  font-size: 1.7em;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
 }
 
 .page-content .title {
