@@ -82,6 +82,18 @@
   letter-spacing: 1px;
 }
 
+.infoviz h1 {
+  margin-bottom: 0.25em;
+}
+
+.infoviz h2 {
+  margin-bottom: 0;
+}
+
+.infoviz h3 {
+  margin-bottom: 1em;
+}
+
 .page-content .title {
   font-size: 1.5em;
   margin-top: 1.5em;

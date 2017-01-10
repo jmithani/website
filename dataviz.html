@@ -5,8 +5,8 @@
   <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'>
   <title>Data Visualization</title>
   <link href="css/main.css" rel="stylesheet" type = "text/css">
-  <link href="css/about.css" rel="stylesheet" type = "text/css">
   <link href="css/projectpage.css" rel="stylesheet" type = "text/css">
+  <link href="fonts/stylesheet.css" rel="stylesheet" type = "text/css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Custom Fonts -->
@@ -50,38 +50,44 @@
 
     <main class="mdl-layout__content">
       <div class="page-content">
-        <img src="img/usa.PNG"></img>
 
-        <div class="about-text">
+        <div class="about-text infoviz">
+          <img src="img/usa.PNG"></img>
           <h1>Data Visualization</h1>
-          <h2></h2>
+          <h2>USA data maps</h2>
+          <h3>open source NPR framework, d3.js, univariate and bivariate data</h3>
+          <h2>mapping title ix</h2>
+          <h3>api, d3.js, geography (in progress)</h3>
+          <h2>sexual violence in game of thrones</h2>
+          <h3>data collection, R (in progress)</h3>
+        </div>
 
-          <div class="summary">
+          <!-- <div class="summary">
             <p><b>$print <i>USA data</i></b>
             <br />open source NPR framework, d3.js, univariate and bivariate data</p>
 
             <p><br /><b>$print <i>mapping title ix cases</i></b>
-            <br />api, d3.js, interactivity, geography, in progress</p>
+            <br />api, d3.js, geography, in progress</p>
 
             <p><br /><b>$print <i>sexual violence in game of thrones</i></b>
             <br />data collection, R, in progress</p>
-          </div>
+          </div> -->
 
-          <div class="title">$background</div>
+          <div class="title">background</div>
             <p>My interest in data visualization rose from my work in social justice and gaming. When researching the role of online interactivity influencing offline action, I discovered <a href="http://explorableexplanations.com">Explorable Explanations</a>, a digital movement focused on active learning. Explorable Explanations are interactive blog posts or visualizations that teach a concept by doing.</p> 
             <p>Much of the work of a social activist is advocacy; simultaneously raising awareness and communicating the urgency of the issue. This involves designing for communication, interpreting highly technical datasets in a digestible way, and clearly displaying insights gleaned from the data. Visualizations blend my interests in information and play, and challenge both my design and development skills.</p>
 
-            <p>Below are samples of works I have completed or am currently pursuing. I'm always open to project ideas, so if you want to talk please shoot me a message!</p>
+            <p>Below are samples of works I have completed or am currently pursuing. These are a mix of practical work in d3 and original research. I'm always open to project ideas, so if you want to talk please shoot me a message!</p>
 
 
-          <div class="title">$USA data</div>
+          <div class="title">USA data maps</div>
 
           <div class="picture">
-            <img src="img/usa-2.PNG"></img>
+            <img class="img-responsive" src="img/usa-2.PNG"></img>
           </div>
-          <p>This is the second project for a data visualization course I took during spring 2016. It is a collection of univariate and bivariate color maps of various USA data, coded in d3.js. The hexagon representation of the country is an open-source contribution from the NPR Graphics team. My partner and I built functions to convert that data into a color spectrum. The project was an exercise in interpreting numerical data into accurate, readable graphs using changing color value. The project is hosted live on <a href="https://jmithani.github.io/usa-hexagons/">Github</a>.</p>
+          <p><br \>This is the second project for a data visualization course I took during spring 2016. It is a collection of univariate and bivariate color maps of various USA data, coded in d3.js. The hexagon representation of the country is an open-source contribution from the NPR Graphics team. My partner and I built functions to convert that data into a color spectrum. The project was an exercise in interpreting numerical data into accurate, readable graphs using changing color value. The project is hosted live on <a href="https://jmithani.github.io/usa-hexagons/">Github</a>.</p>
 
-          <div class="title">$mapping title ix cases</div>
+          <div class="title">mapping title ix cases</div>
           <p>As I built out my data visualization skillset, I wanted to learn how to create maps. I wanted to visualize meaningful data, and chose to utilize the data from the Chronicle of Higher Education’s <a href="http://projects.chronicle.com/titleix/">Title IX Tracker</a> API.</p>
 
           <p>Right now, I’ve imported the data into a CSV file, merged it with IPEDS data to determine coordinates of each school with R, and mapped it geographically with d3 projections. I plan to add interactivity by allowing users to toggle state data (including population, education level, and income) as well as school data (money spent on sports, Title IX violations, US News Top Colleges).</p>
@@ -99,23 +105,23 @@
 
           <p>Source code, including data sets, available on <a href="https://github.com/jmithani/title-ix-viz">Github</a>.</p>
 
-                    <div class="title">$sexual violence in game of thrones</div>
+          <div class="title">sexual violence in game of thrones</div>
           <div class="picture">
-            <img src="img/rapeASOIAF.PNG"></img>
-            <p class="description">beginning of the tumblr post that inspired this project</p>
+            <img class="img-responsive" src="img/rapeASOIAF.PNG"></img>
+            <p class="description">Beginning of the tumblr post that inspired this project.</p>
           </div>
           <p>While browsing online one day, I found an <a href="http://io9.gizmodo.com/someone-has-done-a-statistical-analysis-of-rape-in-game-1707037159">article</a> about someone who had counted and compared all acts of rape in the popular TV series &quot;Games of Thrones&quot; (GOT) with its print counterpart, the <i>A Song of Ice and Fire</i> (ASOIAF) series. (See the Tumblr post <a href="http://tafkarfanfic.tumblr.com/post/119770640640/rape-in-asoiaf-vs-game-of-thrones-a-statistical">here</a>.) One thing I noticed right away from the descriptions is that often, the person assaulted was an unnamed woman, and the assaulter was a heavy-hitting bad guy.</p>
 
           <div class="picture">
-            <img src="img/csv.PNG"></img>
-            <p class="description">csv file I made from tafkar's data on rape in ASAOIF</p>
+            <img class="img-responsive" src="img/csv.PNG"></img>
+            <p class="description">CSV file I made from tafkar's data on rape in ASAOIF.</p>
           </div>
 
           <p>This reminded me of readings on how violence against women is used as a backdrop to further male character development - in this case, to showcase how evil a character really is. From the article, many of the women who were assaulted were minor characters, with a rape occasionally being their only participation in the entire series.</p>
 
           <div class="picture">
-            <img src="img/got.PNG"></img>
-            <p class="description">network of rapes in ASOIAF book series from tafkar's data set</p>
+            <img class="img-responsive" src="img/got.PNG"></img>
+            <p class="description">Network of sexual violence in ASOIAF book series from tumblr user tafkar's data set.</p>
           </div>
 
           <p>The image above is from a quick network analysis I wrote in R, which consists of the data provided in the analysis linked above. The primitive, undirected graph simply indicates that there are clusters of assaults all committed by a single, named male character.</p>
