@@ -22,49 +22,52 @@ body {
 }
 
 .mdl-layout__header-row .mdl-layout-title {
-  font-family: 'Inconsolata';
+  font-family: 'webfontbold';
   color: rgb(146, 96, 199);
   font-size: 2em;
 }
 
 .mdl-layout__header-row .mdl-navigation__link {
   color: rgb(146, 96, 199) !important;
-  font-family: 'Inconsolata';
+  font-family: 'webfontbold';
   font-size: 1.25em;
 }
 
 .mdl-layout__content #intro h3 {
-  font-family: 'Inconsolata';
+  font-family: 'webfontbold';
   color: rgb(146, 96, 199);
-  font-size: 3.5em;
+  font-size: 3em;
   line-height: 1;
   margin-top: 5%;
   margin-left: 15%;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.25em;
   text-align: left;
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 .mdl-layout__content #intro p {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'vollkornregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #555;
-  font-size: 1.75em;
+  font-size: 1.25em;
   line-height: 1.5;
   margin-right: 15%;
   margin-left: 15%;
   text-align: left;
+  font-weight: 300;
 }
 
 @media (max-width: 500px) {
   .mdl-layout__content #intro h3 {
-    margin-left: 10%;
+    margin-left: 5%;
     margin-bottom: 0.25em;
+    font-size: 2em;
   }
 
   .mdl-layout__content #intro p {
-    font-size: 1.5em;
-    line-height: 1.5;
-    margin-left: 10%;
+    font-size: 1em;
+    line-height: 1.3;
+    margin-left: 5%;
   }
 
   .mdl-layout__content .page-content .card-heading {
@@ -79,27 +82,28 @@ body {
 }
 
 .mdl-layout__content #intro a {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #555;
+  font-family: 'vollkornregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: rgb(146, 96, 199);
   text-decoration: underline;
   font-size: 1em;
   font-weight: 300;
 }
 
 .mdl-layout__content .page-content .card-heading {
-  font-size: 2em;
-  font-family: 'Inconsolata';
+  font-size: 1.5em;
+  font-family: 'webfontbold';
   color: rgb(146, 96, 199);
   text-transform: lowercase;
   text-align: center;
   margin-top: 1em;
   margin-bottom: 1em;
   font-weight: 300;
+  text-transform: uppercase;
 }
 
 
 p {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'vollkornregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #555;
   font-size: 28px;
   line-height: 2;
@@ -107,7 +111,7 @@ p {
 }
 
 p a {
-  font-family: 'Inconsolata';
+  font-family: 'webfontbold';
   color: #9260c7;
   font-weight: bold;
   text-decoration: none;
@@ -130,9 +134,9 @@ p a:hover {
 
 .mdl-layout__content .card-nav .mdl-button {
   font-size: 1.25em;
-  font-family: 'Open Sans';
+  font-family: 'vollkornregular';
   color: #555;
-  text-transform: lowercase;
+  text-transform: uppercase;
 }
 
 /* Card Style */
@@ -197,7 +201,7 @@ p a:hover {
 }
 
 .demo-card-image > .mdl-card__actions {
-  transition: all 0.5s linear;
+  transition: all 0.45s linear;
   height: 56px;
   background: rgba(146, 96, 199, 0.8);
   margin-top: 200px;
@@ -207,12 +211,13 @@ p a:hover {
 
 .card-title {
   color: #fff;
-  font-size: 1.4em;
+  font-size: 1em;
 /*  font-weight: 700;*/
-  font-family: 'Inconsolata', monospace;
+  font-family: 'webfontbold', monospace;
   text-align: right;
 /*  align-items: flex-start;*/
   padding-top: 8px;
+  text-transform: uppercase;
 }
 
 /* Adjustments for 2-line card titles */
@@ -262,7 +267,7 @@ div.demo-card-image.mdl-card.mdl-shadow--2dp.play.research.art.all div.mdl-card_
   color: #fff;
   font-size: 1em;
   font-weight: 500;
-  font-family: 'Inconsolata', monospace;
+  font-family: 'webfontbold', monospace;
   position: absolute;
   right: 16px;
   margin-top: 32px;
@@ -274,7 +279,7 @@ div.demo-card-image.mdl-card.mdl-shadow--2dp.play.research.art.all div.mdl-card_
   color: #fff;
   font-size: 1em;
   font-weight: 500;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'vollkornregular', sans-serif;
   text-align: right;
   position: absolute;
   right: 16px;

@@ -3,10 +3,10 @@
 
 <head>
   <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'>
-  <title>Data Visualization</title>
+  <title>News Graphics</title>
   <link href="css/main.css" rel="stylesheet" type = "text/css">
-  <link href="css/about.css" rel="stylesheet" type = "text/css">
   <link href="css/projectpage.css" rel="stylesheet" type = "text/css">
+  <link href="fonts/stylesheet.css" rel="stylesheet" type = "text/css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Custom Fonts -->
@@ -50,55 +50,49 @@
 
     <main class="mdl-layout__content">
       <div class="page-content">
-        <img src="img/usa.PNG"></img>
 
-        <div class="about-text">
+        <div class="about-text infoviz">
+          <img src="img/news.PNG"></img>
           <h1>News Graphics</h1>
-          <h2></h2>
-
-          <div class="summary">
-            <p><b>$print <i>a broken shield</i></b>
-            <br />infographics, Adobe Illustrator</p>
-
-            <p><br /><b>$print <i>school librarians, shelved</i></b>
-            <br />map, data analysis, Adobe Illustrator, Google Fusion Tables, Google Maps API</p>
-          </div>
-
-          <div class="title">$background</div>
-            <p>I joined the staff of the <a href="http://southsideweekly.com">South Side Weekly</a> as a graphics contributor in September 2016. I specialize in providing infographics and data visualizations for both print and online editions. I've also volunteered to help writers obtain and analyze data for their stories.</p>
-
-          <div class="title">$a broken shield</div>
-
-          <div class="picture">
-            <img class="img-responsive" src="img/pd2.png"></img>
-          </div>
-          <p>&quot;Cook County’s public defenders are overworked and underfunded. But criminal justice reform won’t succeed without them.&quot; &#8211; Eleanore Catolico, <a href="http://southsideweekly.com/a-broken-shield/">A Broken Shield</a> </p>
-
-          <div class="picture">
-            <img class="img-responsive" src="img/pd1.png"></img>
-          </div>
-          <p>I created a bar chart to easily communicate the extent to which Cook County public defenders were overextending themselves, highlighting the maximum case load they are supposed to be working with. I also pulled out statistics from the article (52% and 23%) and translated them into quantities of people (5 people versus 2 people) in order to show the human impact of a private versus public attorney.</p>
-
-          <div class="title">$school librarians, shelved</div>
-
-          <div class="picture">
-            <img class="img-responsive" src="img/librarians.png"></img>
-          </div>
-
-          <p>&quot; CTU reported that in 2015, seventy-five percent of majority-African-American schools didn’t have a librarian, compared to sixteen percent of schools with a less than fifty percent African-American population. CPS’s own demographic analyses, conducted each year to determine quotas for selective enrollment schools, and defined using census data on socioeconomic status and other factors affecting student achievement, can be used to highlight the systemic disadvantages in library access.&quot; &#8211; Anne Li, <a href="http://southsideweekly.com/school-librarians-shelved/">School Librarians, Shelved</a></p>
-
-          <p>For this map, I used the open-source <a href="http://cpstiers.opencityapps.org/">CPS Tiers Map</a> by Open City Apps as well as public data on the locations of public schools in Chicago. I pulled all the data on high schools, then cross referenced whether each had a librarian based on a PDF report put out by the Chicago Teachers Union. I separated the data sets of with or without librarians into two different fusion tables, and finally I combined all three fusion tables into one interactive map. For the print version, I then screenshotted the map and hand edited the icons and legend with Adobe Illustrator.</p>
-
-          <p>Shout out to the folks in the <a href="http://chihacknight.org">ChiHackNight</a> #mapping Slack channel (several of who helped made the original Open City App!) for their guidance into the world of Google Fusion Tables.</p> 
+          <h2>A Broken Shield</h2>
+          <h3>infographics, Adobe Illustrator</h3>
+          <h2>School Librarians, Shelved</h2>
+          <h3>map, data analysis, interactive</h3>
 
         </div>
 
+        <div class="title">background</div>
+        <p>I joined the staff of the <a href="http://southsideweekly.com">South Side Weekly</a> as a graphics contributor in September 2016. I specialize in providing infographics and data visualizations for both print and online editions. I've also volunteered to help writers obtain and analyze data for their stories.</p>
 
+        <div class="title heading">a broken shield</div>
+        <p>&quot;Cook County’s public defenders are overworked and underfunded. But criminal justice reform won’t succeed without them.&quot; &#8211; Eleanore Catolico, <a href="http://southsideweekly.com/a-broken-shield/">A Broken Shield</a> </p>
+        <div class="picture">
+          <img class="img-responsive" src="img/pd2.png"></img>
+          <div class="description"></div>
+        </div>
+        <p>I made a series of graphics for the article, highlighting key facts in a way that could be easily comprehended. I rephrased and combined some of statistics reported - for instance, referring to the discrepency in defense time at one-third instead of only contrasting the two numbers.</p>
 
+        <div class="picture">
+          <img class="img-responsive" src="img/pd1.png"></img>
+          <div class="description"></div>
+        </div>
+        <p>I created a bar chart to easily communicate the extent to which Cook County public defenders were overextending themselves, highlighting the maximum case load they are supposed to be working with. I also pulled out statistics from the article (52% and 23%) and translated them into quantities of people (5 people versus 2 people) in order to show the human impact of a private versus public attorney.</p>
 
-      </div> <!-- page-content -->
-    </main>
-  </div>
+        <div class="title heading">school librarians, shelved</div>
+        <p>&quot; CTU reported that in 2015, seventy-five percent of majority-African-American schools didn’t have a librarian, compared to sixteen percent of schools with a less than fifty percent African-American population. CPS’s own demographic analyses, conducted each year to determine quotas for selective enrollment schools, and defined using census data on socioeconomic status and other factors affecting student achievement, can be used to highlight the systemic disadvantages in library access.&quot; &#8211; Anne Li, <a href="http://southsideweekly.com/school-librarians-shelved/">School Librarians, Shelved</a></p>
+
+        <div class="picture">
+          <img class="img-responsive" src="img/librarians.png"></img>
+          <div class="description">Final map that went to print in the South Side Weekly.</div>
+        </div>
+
+        <p>For this map, I used the open-source <a href="http://cpstiers.opencityapps.org/">CPS Tiers Map</a> by Open City Apps as well as public data on the locations of public schools in Chicago. I pulled all the data on high schools, then cross referenced whether each had a librarian based on a PDF report put out by the Chicago Teachers Union. I separated the data sets of with or without librarians into two different fusion tables, and finally I combined all three fusion tables into one interactive map. For the print version, I then screenshot the map and hand edited the icons and legend with Adobe Illustrator. To view the interactive, please visit the <a href="http://southsideweekly.com/school-librarians-shelved/">original article</a>.</p>
+
+        <p>Shout out to the folks in the <a href="http://chihacknight.org">ChiHackNight</a> #mapping Slack channel (several of who helped made the original Open City App!) for their guidance into the world of Google Fusion Tables.</p> 
+
+      </div>
+  </main>
+</div>
 
 
 </body>
