@@ -9,6 +9,7 @@
   margin-right: 20%;
   margin-left: 20%;
   margin-top: 20px;
+  margin-bottom: 5%;
 }
 
 .page-content .about-text {
@@ -92,6 +93,10 @@
 
 .infoviz h3 {
   margin-bottom: 1em;
+}
+
+.page-content .heading {
+  color: rgb(146, 99, 199);
 }
 
 .page-content .title {
