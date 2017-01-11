@@ -1,27 +1,31 @@
 .page-content {
   text-align: center;
-  font-family: 'Open Sans';
+  font-family: 'vollkornregular';
 }
 
 .page-content img, .page-content .about-text img {
-  height: 300px;
+    height: 300px;
   margin-top: 10px;
+/*  margin-right: 20%;
+  margin-left: 20%;*/
 }
 
 .page-content a {
-  font-family: 'Inconsolata';
+  font-family: 'webfontbold';
   text-decoration: underline;
   color: rgb(146, 96, 199);
 }
 
 #links {
-  margin-top: 15px;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 #links a {
   padding: 10px;
   font-weight: 700;
   font-size: 1.5em;
+  text-transform: uppercase;
 }
 
 .about-text {
@@ -32,7 +36,7 @@
 }
 
 .about-text p {
-  font-size: 1.25em;
+  font-size: 1.4em;
 }
 
 @media (max-width: 500px) {
@@ -61,6 +65,8 @@ ul {
 
 .page-content #status .first-item {
   font-size: 1.2em;
+  text-transform: uppercase;
+  font-family: 'webfontbold';
   color: #555;
   font-weight: 700;
 }
@@ -76,7 +82,10 @@ ul {
 }
 
 .about-text .title {
+  text-transform: uppercase;
+  font-family: 'webfontbold';
   font-size: 1.25em;
   color: #555;
   font-weight: 600;
+  text-align: center;
 }
