@@ -49,18 +49,17 @@ body {
   font-size: 3em;
   line-height: 1.25;
   margin-top: 2%;
-  /*margin-left: 15%;*/
+  margin-left: 15%;
   margin-bottom: 0.1em;
-  text-align: center;
+  text-align: left;
   font-weight: 500;
   text-transform: uppercase;
 }
 
 .mdl-layout__content #icons {
-  /*margin-left: 15%;*/
-  margin-bottom: 0.1em;
-  font-size: 5em;
-  text-align: center;
+  margin-left: 15%;
+  margin-bottom: 0.5em;
+  font-size: 2em;
 }
 
 .mdl-layout__content #icons a {
@@ -69,7 +68,7 @@ body {
 }
 
 .mdl-layout__content #icons img {
-  width: 36px;
+  width: 26px;
 }
 
 .mdl-layout__content .intro p {
@@ -81,17 +80,11 @@ body {
   margin-left: 15%;
   text-align: left;
   font-weight: 300;
-  margin-bottom: 0;
-}
-
-.mdl-layout__content .intro p b {
-  font-family: 'vollkornsemibold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #555 !important;
 }
 
 @media (max-width: 500px) {
   .mdl-layout__content .intro h3 {
-    /*margin-left: 5%;*/
+    margin-left: 5%;
     margin-bottom: 0.25em;
     font-size: 1.75em;
   }
