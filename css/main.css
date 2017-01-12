@@ -27,6 +27,12 @@ body {
   font-size: 2em;
 }
 
+.mdl-layout__header-row .mdl-layout-title a {
+  font-family: 'webfontbold';
+  color: rgb(146, 96, 199);
+  text-decoration: none;
+}
+
 .mdl-layout__header-row .mdl-navigation__link {
   color: rgb(146, 96, 199) !important;
   font-family: 'webfontbold';
