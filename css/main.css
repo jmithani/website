@@ -1,5 +1,5 @@
 body {
-  background-color: #FAEDFA;
+  background-color: white;
 }
 
 /* Site Nav */
@@ -9,8 +9,7 @@ body {
 }*/
 
 .mdl-layout .mdl-layout__header {
-  background-color: #FAEDFA;
-  /* other really nice, darker hue #EBD9FF*/
+  background-color: #FFF;
 }
 
 .demo-layout-transparent .mdl-layout__drawer-button {
