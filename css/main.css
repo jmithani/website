@@ -39,12 +39,16 @@ body {
   font-size: 1.25em;
 }
 
+.mdl-layout__content #intro {
+  text-align: center;
+}
+
 .mdl-layout__content #intro h3 {
   font-family: 'webfontbold';
   color: rgb(146, 96, 199);
   font-size: 3em;
-  line-height: 1;
-  margin-top: 5%;
+  line-height: 1.25;
+  margin-top: 2%;
   margin-left: 15%;
   margin-bottom: 0.25em;
   text-align: left;
@@ -65,15 +69,15 @@ body {
 
 @media (max-width: 500px) {
   .mdl-layout__content #intro h3 {
-    margin-left: 5%;
+    /*margin-left: 3%;*/
     margin-bottom: 0.25em;
-    font-size: 2em;
+    font-size: 1.75em;
   }
 
   .mdl-layout__content #intro p {
     font-size: 1em;
-    line-height: 1.3;
-    margin-left: 5%;
+    /*line-height: 1.3;
+    margin-left: 5%;*/
   }
 
   .mdl-layout__content .page-content .card-heading {
@@ -88,11 +92,15 @@ body {
 }
 
 .mdl-layout__content #intro a {
-  font-family: 'vollkornregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'webfontbold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: rgb(146, 96, 199);
   text-decoration: underline;
-  font-size: 1em;
+  font-size: 0.9em;
   font-weight: 300;
+}
+
+.page-content {
+  margin-bottom: 4%;
 }
 
 .mdl-layout__content .page-content .card-heading {
