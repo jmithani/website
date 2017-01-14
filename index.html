@@ -2,40 +2,183 @@
 <html>
 
 <head>
-	<title>Hi, I'm Jasmine.</title>
-	<link href="css/main.css" rel="stylesheet" type = "text/css">
-<!--   <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'>
+  <title>Hi, I'm Jasmine.</title>
+  <link href="css/main.css" rel="stylesheet" type = "text/css">
+  <link href="fonts/stylesheet.css" rel="stylesheet" type = "text/css">
+  <meta name="viewport" content="width=device-width">
 
   <!-- Google Analytics -->
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-71845192-1', 'auto');
-    ga('send', 'pageview');
+  ga('create', 'UA-71845192-1', 'auto');
+  ga('send', 'pageview');
   </script>
+  <!-- End Google Analytics -->
 
   <!-- Custom Fonts -->
-  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+
+  <!-- MDL JavaScript, jQuery -->
+  <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-pink.min.css">
+  <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   
+  crossorigin="anonymous"></script>
 </head>
+
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header mdl-layout__header--seamed">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span id="big-title" class="mdl-layout-title"><a href="index.html">jasmine mithani</a></span>
+        <span id="small-title" class="mdl-layout-title"><a href="index.html">jmithani</a></span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation. We hide it in small screens. -->
+        <nav class="mdl-navigation mdl-layout--large-screen-only">
+          <a class="mdl-navigation__link" href="about.html">about</a>
+          <a class="mdl-navigation__link" href="index.html">index</a>
+          <!-- <a class="mdl-navigation__link" href="http://blog.jmithani.com">blog</a> -->
+        </nav>
+      </div>
+    </header>
+  </div>
 
 <body>
 
-  <div id="content" class="container">
-    <div class="row">
-      <div class="col-md-4" style="width:65%;">
-        <p>Hi! I'm Jasmine. 
-        <p>I'm all about humans, technology, and creativity. Feel free to look at some of my <a href="html/portfolio_index.html">work</a>, or browse my <a href="http://blog.jmithani.com">blog</a>. I'm always working on something new, so my <a href="http://linkedin.com/in/jmithani">LinkedIn</a> and <a href="http://github.com/jmithani">Github</a> make up my most up-to-date resume. For a riveting livestream of my life (read: lots of retweets), you can catch up with me <a href="http://twitter.com/jazzmyth">@jazzmyth</a>. And of course, if you want to know a little more <a href="html/about.html">about me</a>, I have a nifty page set up for that too.</p>
-      </div>
-    </div>
-  </div>
+    <main class="mdl-layout__content">
+      <div class="page-content">
+        <div class="intro">
+          <h3>hi, i&#39;m jasmine.</h3>
+        </div>
+          <div id="icons">
+            <a href="https://github.com/jmithani" target="_blank"> <img src="img/github-circle.png"  alt="github link"></img> </a>
+            <a href="https://linkedin.com/in/jmithani" target="_blank"> <img src="img/linkedin-circle.png" alt="linkedin link"></img> </a>
+            <a href="https://twitter.com/jazzmyth" target="_blank"> <img src="img/twitter-circle.png" alt="twitter link"></img> </a>
+          </div>
+          <div class="intro">
+          <p>I make cool things with <b>data, design,</b> and <b>code</b>. I do <b>user experience design, data visualization,</b> and <b>front-end prototyping</b>. My product development process <b>emphasizes user research</b> and <b>frequent testing</b>. I'm an active <b>open source</b> and <b>civic tech</b> contributor, and spend a lot of my free time working to <b>champion marginalized populations</b> in the technology community.</p>
+        </div>
 
-</body>
+        <div class="card-heading">
+          product case studies
+        </div>
+
+        <div class="cards-wrapper">
+
+            <div class="demo-card-image mdl-card wtm mdl-shadow--2dp design code ux research all">
+              
+              <div class="mdl-card__actions">
+                <a href="wordsmatter.html">
+                  <div class="card-title"><span>words that matter</span></div>
+                  <div class="show-on-hover">
+                    <div class="card-tags"><span>ux design / code / usability testing </span></div>
+                    <div class="card-description"><span>Game demo for DoSomething.org to educate teens about unhealthy relationships.</span></div>
+                  </div><!-- show on hover -->
+                </div><!-- card actions -->
+              </a>
+            </div> <!-- demo card -->
+            <!--   </div> --> <!-- mdl-cell -->
+
+            <div class="demo-card-image mdl-card rcs mdl-shadow--2dp design research ux all">
+              
+              <div class="mdl-card__actions">
+                <a href="careerservices.html">
+                  <div class="card-title"><span>reinventing career services</span></div>
+                  <div class="show-on-hover">
+                    <div class="card-tags"><span>ux design / user research / product dev</span></div>
+                    <div class="card-description"><span>Class project redesign of the UChicago Career Services structure to focus on career discovery.</span></div>
+                  </div> <!-- show on hover -->
+                </div> <!-- card actions -->
+              </a>
+            </div> <!-- demo card -->
+
+            <div class="demo-card-image mdl-card ftb mdl-shadow--2dp code ux all">
+              <div class="mdl-card__actions">
+                <a href="feedthebaby.html">
+                  <div class="card-title"><span>feed the baby</span></div>
+                  <div class="show-on-hover">
+                    <div class="card-tags"><span>user research / analytics / code</span></div>
+                    <div class="card-description"><span>Game released by DoSomething.org in order to encourage sign-ups for a campaign tackling teenage pregnancy.</span></div>
+                  </div> <!-- show on hover -->
+                </div> <!-- card actions -->
+              </a>
+            </div> <!-- demo card -->
+        </div>
+
+        <div class="card-heading">
+          information visualization
+        </div>
+
+        <div class="cards-wrapper">
+            <div class="demo-card-image mdl-card mdl-shadow--2dp dataviz research design code all">
+              <div class="mdl-card__actions">
+                <a href="dataviz.html">
+                  <div class="card-title"><span>data visualization</span></div>
+                  <div class="show-on-hover">
+                    <div class="card-tags"><span>code / design / personal research</span></div>
+                    <div class="card-description"><span>Data visualization projects using R and d3.js, including current areas of research.</span></div>
+                  </div> <!-- show on hover -->
+                </div> <!-- card actions -->
+              </a>
+            </div> <!-- demo card -->
+
+            <div class="demo-card-image mdl-card ssw mdl-shadow--2dp design code all">
+              <div class="mdl-card__actions">
+                <a href="newsgraphics.html">
+                  <div class="card-title"><span>news graphics</span></div>
+                  <div class="show-on-hover">
+                    <div class="card-tags"><span>design / code</span></div>
+                    <div class="card-description"><span>Creating graphics and data visualizations for the South Side Weekly.</span></div>
+                  </div> <!-- show on hover -->
+                </div> <!-- card actions -->
+              </a>
+            </div> <!-- demo card -->
+          </div>
+
+          <div class="card-heading">
+            other projects
+          </div>
+
+          <div class="cards-wrapper">
+            <div class="demo-card-image mdl-card diso mdl-shadow--2dp design code all">
+              <div class="mdl-card__actions">
+                <a href="disorientation.html">
+                  <div class="card-title"><span>disorientation 2016</span></div>
+                  <div class="show-on-hover">
+                    <div class="card-tags"><span>design / code</span></div>
+                    <div class="card-description"><span>Website built for easy mobile access by the UChicago community.</span></div>
+                  </div> <!-- show on hover -->
+                </div> <!-- card actions -->
+              </a>
+            </div> <!-- demo card -->
+
+            <div class="demo-card-image mdl-card gg mdl-shadow--2dp design all">
+              <div class="mdl-card__actions">
+                <a href="gaaligang.html">
+                  <div class="card-title"><span>gaali gang zine</span></div>
+                  <div class="show-on-hover">
+                    <div class="card-tags"><span>print design</span></div>
+                    <div class="card-description"><span>Founded and designed zine for radical South Asian affects.</span></div>
+                  </div> <!-- show on hover -->
+                </div> <!-- card actions -->
+              </a>
+            </div> <!-- demo card -->
+          </div>
+
+          </div> <!-- mdl-grid -->
+        </div> <!-- page-content -->
+      </main>
+    </div>
+
+
+  </body>
 
 </html>
