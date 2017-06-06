@@ -5,10 +5,6 @@ body {
 
 /* Site Nav */
 
-/*.demo-layout-transparent {
-  background: url('../assets/demos/transparent.jpg') center / cover;
-}*/
-
 .mdl-layout .mdl-layout__header {
   background-color: #FAEDFA;
   /* other really nice, darker hue #EBD9FF*/
@@ -41,9 +37,9 @@ body {
   font-size: 1.25em;
 }
 
-/*.mdl-layout__content .intro {
-  text-align: center;
-}*/
+.mdl-layout__content {
+  display: inline !important;
+}
 
 /* For the intro text */
 .mdl-layout__content .intro h3 {
@@ -59,9 +55,22 @@ body {
   text-transform: uppercase;
 }
 
+.mdl-layout__content .intro h4 {
+  font-family: 'webfontbold';
+  color: rgb(146, 96, 199);
+  font-size: 1.75em;
+  /*margin-left: 15%;*/
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  text-align: center;
+  font-weight: 500;
+  text-transform: lowercase;
+}
+
 /* Github, Twitter, and LinkedIn icons */
 .mdl-layout__content #icons {
   /*margin-left: 15%;*/
+  margin-top: 0.1em;
   margin-bottom: 0.1em;
   font-size: 5em;
   text-align: center;
@@ -152,6 +161,17 @@ p {
   line-height: 2;
   margin: 0px;
 }
+
+.intro .center h4 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.intro .center p {
+  margin-left: 33%;
+  margin-right: 30%;
+}
+
 
 p a {
   font-family: 'webfontbold';
