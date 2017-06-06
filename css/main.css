@@ -120,6 +120,7 @@ body {
   .mdl-layout__content .page-content .card-heading {
     margin-top: 0.5em;
   }
+
 }
 /* End @media */
 
@@ -144,6 +145,7 @@ body {
 .mdl-layout__content .page-content .card-heading {
   font-size: 1.5em;
   font-family: 'webfontbold';
+  /*color: #555;*/
   color: rgb(146, 96, 199);
   text-transform: lowercase;
   text-align: center;
@@ -170,6 +172,13 @@ p {
 .intro .center p {
   margin-left: 33%;
   margin-right: 30%;
+}
+
+@media (max-width: 500px) {
+  .intro .center p {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
 }
 
 
