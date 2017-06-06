@@ -265,15 +265,15 @@ p a:hover {
 }
 
 .demo-card-image.mdl-card.lake {
-  background: url('../img/lake.PNG') center / cover;
+  background: url('../img/lake.png') center / cover;
 }
 
 .demo-card-image.mdl-card.cha {
-  background: url('../img/timeline.PNG') center / cover;
+  background: url('../img/timeline.png') center / cover;
 }
 
 .demo-card-image.mdl-card.divvy {
-  background: url('../img/usage-01.PNG') center / cover;
+  background: url('../img/usage-01.png') center / cover;
 }
 
 .cards-wrapper {
