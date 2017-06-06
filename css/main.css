@@ -5,10 +5,6 @@ body {
 
 /* Site Nav */
 
-/*.demo-layout-transparent {
-  background: url('../assets/demos/transparent.jpg') center / cover;
-}*/
-
 .mdl-layout .mdl-layout__header {
   background-color: #FAEDFA;
   /* other really nice, darker hue #EBD9FF*/
@@ -41,10 +37,11 @@ body {
   font-size: 1.25em;
 }
 
-/*.mdl-layout__content .intro {
-  text-align: center;
-}*/
+.mdl-layout__content {
+  display: inline !important;
+}
 
+/* For the intro text */
 .mdl-layout__content .intro h3 {
   font-family: 'webfontbold';
   color: rgb(146, 96, 199);
@@ -58,8 +55,22 @@ body {
   text-transform: uppercase;
 }
 
+.mdl-layout__content .intro h4 {
+  font-family: 'webfontbold';
+  color: rgb(146, 96, 199);
+  font-size: 1.75em;
+  /*margin-left: 15%;*/
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
+  text-align: center;
+  font-weight: 500;
+  text-transform: lowercase;
+}
+
+/* Github, Twitter, and LinkedIn icons */
 .mdl-layout__content #icons {
   /*margin-left: 15%;*/
+  margin-top: 0.1em;
   margin-bottom: 0.1em;
   font-size: 5em;
   text-align: center;
@@ -74,6 +85,7 @@ body {
   width: 36px;
 }
 
+/* Page positioning and text defaults */
 .mdl-layout__content .intro p {
   font-family: 'vollkornregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #555;
@@ -108,12 +120,14 @@ body {
   .mdl-layout__content .page-content .card-heading {
     margin-top: 0.5em;
   }
+
 }
+/* End @media */
 
 .mdl-layout__content .intro p b {
   font-weight: 300;
   color: rgb(146, 96, 199);
-  
+
 }
 
 .mdl-layout__content .intro a {
@@ -131,6 +145,7 @@ body {
 .mdl-layout__content .page-content .card-heading {
   font-size: 1.5em;
   font-family: 'webfontbold';
+  /*color: #555;*/
   color: rgb(146, 96, 199);
   text-transform: lowercase;
   text-align: center;
@@ -148,6 +163,24 @@ p {
   line-height: 2;
   margin: 0px;
 }
+
+.intro .center h4 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.intro .center p {
+  margin-left: 33%;
+  margin-right: 30%;
+}
+
+@media (max-width: 500px) {
+  .intro .center p {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
 
 p a {
   font-family: 'webfontbold';
@@ -231,6 +264,18 @@ p a:hover {
   background: url('../img/quarter.PNG') center / cover;
 }
 
+.demo-card-image.mdl-card.lake {
+  background: url('../img/lake.PNG') center / cover;
+}
+
+.demo-card-image.mdl-card.cha {
+  background: url('../img/timeline.PNG') center / cover;
+}
+
+.demo-card-image.mdl-card.divvy {
+  background: url('../img/usage-01.PNG') center / cover;
+}
+
 .cards-wrapper {
   text-align: center;
 }
@@ -269,13 +314,11 @@ div.demo-card-image.mdl-card.mdl-shadow--2dp.play.research.art.all div.mdl-card_
   padding-top: 0px;
 }*/
 
-.demo-card-image.play:hover .show-on-hover .card-tags,
-.demo-card-image.rcs:hover .show-on-hover .card-tags {
+.demo-card-image.play:hover .show-on-hover .card-tags {
   margin-top: 48px;
 }
 
-.demo-card-image.play:hover .show-on-hover .card-description,
-.demo-card-image.rcs:hover .show-on-hover .card-description {
+.demo-card-image.play:hover .show-on-hover .card-description {
   margin-top: 64px;
 }
 
@@ -322,8 +365,23 @@ div.demo-card-image.mdl-card.mdl-shadow--2dp.play.research.art.all div.mdl-card_
   text-align: right;
   position: absolute;
   right: 16px;
+  margin-top: 60px;
+}
+
+/* Adjusting for .card-title with two lines */
+
+.demo-card-image.two:hover .show-on-hover .card-tags {
   margin-top: 48px;
 }
+
+.demo-card-image.two:hover .show-on-hover .card-description {
+  margin-top: 72px;
+}
+
+.demo-card-image.two:hover .show-on-hover .card-title {
+  padding-top: 0px;
+}
+
 
 /* Changing the header depending on screen size */
 
