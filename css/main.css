@@ -297,11 +297,11 @@ p a:hover {
 }
 
 .demo-card-image.mdl-card.disney {
-  background: url('../img/disney.PNG') center / cover;
+  background: url('../img/disney.png') center / cover;
 }
 
 .demo-card-image.mdl-card.ccd {
-  background: url('../img/ccd.PNG') center / cover;
+  background: url('../img/ccd.png') center / cover;
 }
 
 .cards-wrapper {
