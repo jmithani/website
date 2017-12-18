@@ -304,6 +304,10 @@ p a:hover {
   background: url('../img/ccd.png') center / cover;
 }
 
+.demo-card-image.mdl-card.prek {
+  background: url('../img/Pre-K_TurtelOnli-686x1024.png') center / cover;
+}
+
 .cards-wrapper {
   text-align: center;
 }
