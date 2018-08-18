@@ -3,7 +3,7 @@ var STROKEWIDTH = 3;
 var HEIGHT = 600;
 var WIDTH = 960;
 
-var svg = d3.select("network")
+var svg = d3.select("#network")
             .append("svg")
             .attr("width", WIDTH)
             .attr("height", HEIGHT);
