@@ -1,7 +1,7 @@
-var RADIUS = 12;
+var RADIUS = 10;
 var STROKEWIDTH = 3;
-var HEIGHT = 600;
-var WIDTH = 960;
+var HEIGHT = 400;
+var WIDTH = 600;
 
 var svg = d3.select("#network")
             .append("svg")
@@ -45,9 +45,9 @@ d3.json("files/interests.json", function(error, graph) {
       })
       .attr("fill", function(d) {
         if (+d.num > 1) {
-          return "#80FFE8";
+          return "#9260C7";
         } else {
-          return "#8D91DD";
+          return "#EBD9FF";
         }
       })
       .attr("opacity", 0.75)

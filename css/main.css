@@ -1,13 +1,13 @@
 /* main */
 body {
-  background-color: #EBD9FF;
+  background-color: #F8F8FF;
   /*#FAEDFA;*/
 }
 
 /* Site Nav */
 
 .mdl-layout .mdl-layout__header {
-  background-color: #EBD9FF;
+  background-color: #F8F8FF;
   /* other really nice, darker hue #EBD9FF*/
 }
 
@@ -142,16 +142,15 @@ body {
 }
 
 .mdl-layout__content .intro a {
-  font-family: 'vollkorn', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: #555;
-  text-decoration: underline;
+  font-family: 'vollkornregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: rgb(146, 96, 199);
   font-size: 1em;
   font-weight: normal;
   /*font-weight: 300;*/
 }
 
 .mdl-layout__content .intro a:hover {
-  color: rgb(146, 96, 199);
+  text-decoration: underline;
 }
 
 .page-content {
