@@ -2,6 +2,14 @@ var RADIUS = 10;
 var STROKEWIDTH = 3;
 var HEIGHT = 400;
 var WIDTH = 600;
+var DISTANCE = WIDTH / 8;
+
+if (window.innerWidth < 600) {
+  RADIUS = 8;
+  HEIGHT = 400;
+  WIDTH = window.innerWidth - 30;
+  DISTANCE = 6;
+}
 
 var svg = d3.select("#network")
             .append("svg")
@@ -92,7 +100,9 @@ d3.json("files/interests.json", function(error, graph) {
 
   simulation.force("link")
       .links(graph.links)
-      .distance(WIDTH/8); // Keeping all the same for now
+      .distance(function(d) {
+        return DISTANCE;
+      }); // Keeping all the same for now
 
   function ticked() {
     link
