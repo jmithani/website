@@ -453,3 +453,38 @@ div.demo-card-image.mdl-card.mdl-shadow--2dp.play.research.art.all div.mdl-card_
 .mdl-card__actions a {
   text-decoration: none;
 }
+
+/* new stuff */
+#status {
+  display: flex;
+}
+
+ul {
+  text-align: left;
+  vertical-align: top;
+  list-style-type: none;
+
+  top: 0;
+  margin: 0px;
+  padding: 0px 15px 0px 15px;
+/*  text-align: center;*/
+}
+
+.page-content #status li {
+  font-size: 1.15em;
+  color: #555;
+}
+
+.page-content #status .first-item {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  font-family: 'webfontbold';
+  color: #555;
+  font-weight: 700;
+}
+
+.page-content #status a {
+  font-size: 1.1em;
+  text-decoration: none;
+  font-weight: 700;
+}
