@@ -47,6 +47,21 @@ body {
   text-align: center;
 }
 
+#intro-p {
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+@media (max-width: 500px) {
+  #intro-p {
+    max-width: 300px;
+  }
+
+  p {
+    font-size: 0.75em;
+  }
+}
+
 /* For the intro text */
 .mdl-layout__content .intro h3 {
   font-family: 'webfontbold';
