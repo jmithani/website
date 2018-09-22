@@ -172,20 +172,6 @@ body {
   margin-bottom: 4%;
 }
 
-.mdl-layout__content .page-content .card-heading {
-  font-size: 1.5em;
-  font-family: 'webfontbold';
-  /*color: #555;*/
-  color: rgb(146, 96, 199);
-  text-transform: lowercase;
-  text-align: center;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  font-weight: 300;
-  text-transform: uppercase;
-}
-
-
 p {
   font-family: 'vollkornregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #555;
@@ -193,16 +179,6 @@ p {
   line-height: 2;
   margin: 0px;
 }
-
-/*.intro .center h4 {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.intro .center p {
-  margin-left: 33%;
-  margin-right: 30%;
-}*/
 
 @media (max-width: 500px) {
   .intro .center p {
@@ -223,211 +199,6 @@ p a {
 p a:hover {
   text-decoration: underline;
 }
-
-/* Card Nav Style */
-
-/*.mdl-layout {
-  width: 80%;
-  right: 10%;
-  left: 10%;
-  margin-bottom: 10px;
-  position: relative;
-}*/
-
-.mdl-layout__content .card-nav .mdl-button {
-  font-size: 1.25em;
-  font-family: 'vollkornregular';
-  color: #555;
-  text-transform: uppercase;
-}
-
-.demo-card-image {
-  margin: 10px;
-}
-
-/* Card Style */
-.demo-card-image.mdl-card.vd {
-  background: url('../img/Tulip.jpg') center / cover;
-}
-
-.demo-card-image.mdl-card.wtm {
-  background: url('../img/words-that-matter.PNG') center / cover;
-}
-
-.demo-card-image.mdl-card.ftb {
-  background: url('../img/feed-the-baby.png') center / cover;
-}
-
-.demo-card-image.mdl-card.rcs {
-  background: url('../img/wip.jpg') center / cover;
-}
-
-.demo-card-image.mdl-card.sbd {
-  background: url('../img/sbdigital.PNG') center / cover;
-}
-
-.demo-card-image.mdl-card.twine {
-  background: url('../img/twine_meta.png') center / cover;
-}
-
-.demo-card-image.mdl-card.mspres {
-  background: url('../img/dearmspresident.png') center / cover;
-}
-
-.demo-card-image.mdl-card.play {
-  background: url('../img/tcc.png') center / cover;
-}
-
-.demo-card-image.mdl-card.dataviz {
-  background: url('../img/usa.PNG') center / cover;
-}
-
-.demo-card-image.mdl-card.diso {
-  background: url('../img/disorientation.PNG') center / cover;
-}
-
-.demo-card-image.mdl-card.gg {
-  background: url('../img/gaali.PNG') center / cover;
-}
-
-.demo-card-image.mdl-card.ssw {
-  background: url('../img/pd1.png') center / cover;
-}
-
-.demo-card-image.mdl-card.quarter {
-  background: url('../img/quarter.PNG') center / cover;
-}
-
-.demo-card-image.mdl-card.lake {
-  background: url('../img/lake.png') center / cover;
-}
-
-.demo-card-image.mdl-card.cha {
-  background: url('../img/timeline.png') center / cover;
-}
-
-.demo-card-image.mdl-card.divvy {
-  background: url('../img/usage-01.png') center / cover;
-}
-
-.demo-card-image.mdl-card.disney {
-  background: url('../img/disney.png') center / cover;
-}
-
-.demo-card-image.mdl-card.ccd {
-  background: url('../img/ccd.png') center / cover;
-}
-
-.demo-card-image.mdl-card.prek {
-  background: url('../img/Pre-K_TurtelOnli-686x1024.png') center / cover;
-}
-
-.cards-wrapper {
-  text-align: center;
-}
-
-.demo-card-image.mdl-card {
-  display: inline-block;
-}
-
-.demo-card-image > .mdl-card__actions {
-  transition: all 0.45s linear;
-  height: 56px;
-  background: rgba(146, 96, 199, 0.8);
-  margin-top: 200px;
-/*  display: flex;
-  align-items: right;*/
-}
-
-.card-title {
-  color: #fff;
-  font-size: 1em;
-/*  font-weight: 700;*/
-  font-family: 'webfontbold', monospace;
-  text-align: right;
-/*  align-items: flex-start;*/
-  padding-top: 8px;
-  text-transform: uppercase;
-}
-
-/* Adjustments for 2-line card titles */
-
-/*div.demo-card-image.mdl-card.rcs.mdl-shadow--2dp.design.ux.all div.mdl-card__actions div.card-title {
-  padding-top: 0px;
-}
-
-div.demo-card-image.mdl-card.mdl-shadow--2dp.play.research.art.all div.mdl-card__actions div.card-title {
-  padding-top: 0px;
-}*/
-
-.demo-card-image.play:hover .show-on-hover .card-tags {
-  margin-top: 48px;
-}
-
-.demo-card-image.play:hover .show-on-hover .card-description {
-  margin-top: 64px;
-}
-
-/* End adjustments */
-
-.card-tags {
-  display: none;
-}
-
-.card-description {
-  display: none;
-}
-
-.demo-card-image:hover > .mdl-card__actions {
-  height: 256px;
-  background: rgba(146, 96, 199, 0.8);
-  margin-top: 0px;
-}
-
-.demo-card-image:hover .card-title {
-  position: absolute;
-  right: 8px;
-  margin-bottom: 10px;
-}
-
-.demo-card-image:hover .show-on-hover .card-tags {
-  display: inline;
-  color: #fff;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: 'webfontbold', monospace;
-  position: absolute;
-  right: 16px;
-  margin-top: 32px;
-  margin-bottom: 10px;
-}
-
-.demo-card-image:hover .show-on-hover .card-description {
-  display: inline;
-  color: #fff;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: 'vollkornregular', sans-serif;
-  text-align: right;
-  position: absolute;
-  right: 16px;
-  margin-top: 60px;
-}
-
-/* Adjusting for .card-title with two lines */
-
-.demo-card-image.two:hover .show-on-hover .card-tags {
-  margin-top: 48px;
-}
-
-.demo-card-image.two:hover .show-on-hover .card-description {
-  margin-top: 72px;
-}
-
-.demo-card-image.two:hover .show-on-hover .card-title {
-  padding-top: 0px;
-}
-
 
 /* Changing the header depending on screen size */
 
@@ -456,14 +227,13 @@ div.demo-card-image.mdl-card.mdl-shadow--2dp.play.research.art.all div.mdl-card_
 
 /* new stuff */
 #status {
-  display: flex;
+  /* display: flex; */
 }
 
 ul {
   text-align: left;
   vertical-align: top;
   list-style-type: none;
-
   top: 0;
   margin: 0px;
   padding: 0px 15px 0px 15px;
@@ -473,6 +243,9 @@ ul {
 .page-content #status li {
   font-size: 1.15em;
   color: #555;
+  margin-left: 4em;
+  list-style-type: disc;
+  list-style-position: inside;
 }
 
 .page-content #status .first-item {
@@ -481,10 +254,35 @@ ul {
   font-family: 'webfontbold';
   color: #555;
   font-weight: 700;
+  margin-top: 1em;
+  list-style-type: none;
+  margin-left: 3.5em;
 }
 
 .page-content #status a {
-  font-size: 1.1em;
   text-decoration: none;
-  font-weight: 700;
+  font-weight: normal;
+}
+
+#thoughts {
+  font-family: 'vollkornregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.main-content {
+  display: flex;
+  margin-left: 15%;
+  margin-right: 20%;
+}
+
+#status {
+  min-width: 350px;
+  margin-right: 0;
+}
+
+/* Changing main-content for mobile */
+@media (max-width: 500px) {
+  .main-content {
+    margin: 0;
+    display: inline-grid;
+  }
 }

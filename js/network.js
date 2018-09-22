@@ -1,7 +1,7 @@
 var RADIUS = 10;
 var STROKEWIDTH = 3;
-var HEIGHT = 400;
-var WIDTH = 600;
+var HEIGHT = (window.innerWidth * .3) > 400 ? (window.innerWidth * .3) : 400;
+var WIDTH = (window.innerWidth * .6) > 700 ? (window.innerWidth * .6) : 700;
 var DISTANCE = WIDTH / 8;
 
 if (window.innerWidth < 600) {
@@ -74,7 +74,7 @@ d3.json("files/interests.json", function(error, graph) {
           return (+d.num > 1) ? 4 : 2;
         })
         .style("font-size", function(d) {
-          return (+d.num > 1) ? 12 : 8;
+          return (+d.num > 1) ? 16 : 12;
         })
         .style("text-transform", function(d) {
           return (+d.num > 1) ? "uppercase" : "none";
