@@ -274,6 +274,10 @@ ul {
   margin-right: 20%;
 }
 
+#network {
+  margin-right: 20% !important;
+}
+
 #status {
   min-width: 350px;
   margin-right: 0;

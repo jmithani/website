@@ -1,14 +1,14 @@
 var RADIUS = 10;
 var STROKEWIDTH = 3;
 var HEIGHT = (window.innerWidth * .3) > 400 ? (window.innerWidth * .3) : 400;
-var WIDTH = (window.innerWidth * .6) > 700 ? (window.innerWidth * .6) : 700;
+var WIDTH = (window.innerWidth * .6) > 600 ? 600 : (window.innerWidth * .6);
 var DISTANCE = WIDTH / 8;
 
 if (window.innerWidth < 600) {
   RADIUS = 8;
   HEIGHT = 400;
   WIDTH = window.innerWidth - 30;
-  DISTANCE = 6;
+  DISTANCE = 4;
 }
 
 var svg = d3.select("#network")
