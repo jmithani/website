@@ -1,0 +1,14 @@
+.links line {
+  stroke-opacity: 0.6;
+}
+
+.nodes circle {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+text {
+  font-family: sans-serif;
+  font-style: oblique;
+  font-weight: bold;
+}

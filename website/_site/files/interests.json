@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {"id": "data", "num": 1.4 },
+    {"id": "design", "num": 1.4 },
+    {"id": "code", "num": 1.4 },
+    {"id": "social good", "num": 1.4 },
+    {"id": "user experience", "num": 1 },
+    {"id": "games", "num": 1 },
+    {"id": "civic tech", "num": 1 },
+    {"id": "open source", "num": 1 },
+    {"id": "journalism", "num": 1 },
+    {"id": "visualization", "num": 1 }
+  ],
+  "links": [
+    {"source": "data", "target": "journalism"},
+    {"source": "data", "target": "visualization"},
+    {"source": "data", "target": "design"},
+    {"source": "data", "target": "code"},
+    {"source": "design", "target": "user experience"},
+    {"source": "design", "target": "games"},
+    {"source": "design", "target": "visualization"},
+    {"source": "design", "target": "code"},
+    {"source": "code", "target": "games"},
+    {"source": "code", "target": "open source"},
+    {"source": "social good", "target": "open source"},
+    {"source": "social good", "target": "journalism"},
+    {"source": "social good", "target": "civic tech"},
+    {"source": "social good", "target": "data"},
+    {"source": "social good", "target": "design"},
+    {"source": "social good", "target": "code"},
+    {"source": "journalism", "target": "visualization"},
+    {"source": "user experience", "target": "visualization"},
+    {"source": "open source", "target": "civic tech"}
+  ]
+}
