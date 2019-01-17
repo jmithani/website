@@ -14,6 +14,10 @@ body {
 .demo-layout-transparent .mdl-layout__drawer-button {
   color: #555;
 }
+header.mdl-layout__header.mdl-layout__header--seamed {
+  min-height: 30px;
+  max-height: 30px;
+}
 
 .mdl-layout__header-row {
   padding-left: 2% !important;
@@ -68,7 +72,7 @@ body {
   color: rgb(146, 96, 199);
   font-size: 4em;
   line-height: 1.25;
-  margin-top: 2%;
+  margin-top: 0;
   /*margin-left: 15%;*/
   margin-bottom: 0em;
   text-align: center;
