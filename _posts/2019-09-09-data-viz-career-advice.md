@@ -44,5 +44,5 @@ This is an outline of what I tell people (or wish I had the time to tell people!
 
 My final piece of advice is something I’m still working on, which is not to sell yourself short. I fret about my age and experience and about being a minority, all things that seem to discredit me as I try to build up my expertise. But hell I’ve done a lot in a short period of time, and I’ve had to crash through hurdles others haven’t even thought of. 
 
-Data visualization is a new field, and most of the career advice can be summed up as hone in on what work you want to do, what concessions you can make in order to do that work, and then blaze forward. Visualization encompasses so many industries and technologies—reach out to the community (you can [Tweet me](https://twitter.com/jazzmyth) at any time) if you need guidance. Ignore naysayers. You’re going to do something great. &#x2728;
+Data visualization is a new field, and most of the career advice can be summed up as hone in on what work you want to do, what concessions you can make in order to do that work, and then blaze forward. Visualization encompasses so many industries and technologies—reach out to the community (you can [Tweet me](https://twitter.com/jazzmyth) at any time) if you need guidance. Ignore naysayers. You’re going to do something great. ✨
 

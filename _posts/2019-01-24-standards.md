@@ -16,4 +16,4 @@ Here are the rules I've set for myself for navigating the professional world. To
 
 3. I will not speak at venues that do not have gender-neutral restrooms. I will make this a requirement for when I speak, and bring it up to the organizer.
 
-4. If I speak at an event, I will ask if a government ID is required to enter the venue. If so, I will ask for accommodations for those who do not possess that or who have an ID that is no longer accurate.
+4. If I speak at an event, I will ask if a government ID is required to enter the venue. If so, I will ask for accommodations for those who do not possess that or who have an ID that is no longer accurate. ✨

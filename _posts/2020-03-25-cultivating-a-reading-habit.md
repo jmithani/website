@@ -32,7 +32,7 @@ Without further ado, here are the steps I took to build up my reading again.
 5. Read "light" nonfiction: business books, self-help, pop science or anthropology. Recommendations: *Seven Days In The Art World*, *Choose Wonder Over Worry*, *My Morning Routine*, *Bad With Money*.
 6. Read whatever you want! This isn't the end, though. Watch for patterns in your reading, and start challenging yourself with books out of your comfort zone. (This doesn't mean tackling meaty philosophy or the like, for me that guidance included a YA fantasy book.)
  
-I'm so sad when people tell me they wish they could develop their reading habit, because reading has been crucial to my understanding of the world and provided solace through the strains of everyday life. If you want to talk about your reading journey, have questions, or want book recommendations [hit me up on Twitter](https://twitter.com/jazzmyth).
+I'm so sad when people tell me they wish they could develop their reading habit, because reading has been crucial to my understanding of the world and provided solace through the strains of everyday life. If you want to talk about your reading journey, have questions, or want book recommendations [hit me up on Twitter](https://twitter.com/jazzmyth). ✨
  
  
  
