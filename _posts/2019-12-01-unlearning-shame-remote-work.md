@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Unlearning shame via remote work
+title:  🏡 Unlearning shame via remote work
 date:   2019-12-01
 excerpt:  Though it's only been a month I can overwhelmingly say being remote—or elements of remote life—has tremendously helped me become a better developer and healthier human being. 
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Advice on data visualization career paths
+title: 💼 Advice on data visualization career paths
 date: 2019-09-09
 excerpt: Data visualization is a new field, and most of the career advice can be summed up as hone in on what work you want to do, what concessions you can make in order to do that work, and then blaze forward.
 ---

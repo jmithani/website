@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Cultivating a reading habit
+title:  📖 Cultivating a reading habit
 date:   2020-03-25
 excerpt:  Walking through how I taught myself to love reading again.
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Personal rules of engagement
+title:  ⚖️ Personal rules of engagement
 date:   2019-01-24
 excerpt:  Standards I hold myself to, professionally.
 ---
