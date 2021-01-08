@@ -288,6 +288,7 @@ ul {
 }
 
 /* Marquee */
+/* h/t https://www.html.am/html-codes/marquees/css-scrolling-text.cfm */
 .scroll-left {
   height: 50px;	
   overflow: hidden;
@@ -297,6 +298,7 @@ ul {
 .scroll-left p a {
   font-family: 'vollkornregular', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
   color: #555 !important;
+  text-decoration: none !important;
   font-size: 16px;
   text-transform: uppercase;
   position: absolute;
