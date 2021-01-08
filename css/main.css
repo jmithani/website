@@ -294,10 +294,17 @@ ul {
   position: relative;
   font-family: 'vollkornregular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #555;
-  font-size: 28px;
+  font-size: 18px;
   text-transform: uppercase;
 }
-.scroll-left p {
+.scroll-left p a {
+  height: 50px;	
+  overflow: hidden;
+  position: relative;
+  font-family: 'vollkornregular', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+  color: #555 !important;
+  font-size: 18px;
+  text-transform: uppercase;
   position: absolute;
   width: 100%;
   height: 100%;
