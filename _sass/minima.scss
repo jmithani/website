@@ -12,12 +12,16 @@ $heading-font-family: 'Barlow', sans-serif !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       #46256A !default;
-$background-color: #ffffff !default;
+$text-color:        #ffffff !default;
+$background-color:  #46256A !default;
+
+// $text-color:       #46256A !default;
+// $background-color: #ffffff !default;
 $brand-color:      #9260c7 !default;
+$brand-color-light: lighten($brand-color, 20%) !default;
 
 $grey-color:       #2CA58D !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
+$grey-color-light: lighten($grey-color, 20%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
 $table-text-align: left !default;
