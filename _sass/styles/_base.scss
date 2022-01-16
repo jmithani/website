@@ -106,11 +106,11 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $brand-color;
+  color: $text-color;
   text-decoration: underline;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    //color: darken($text-color, 15%);
   }
 
   &:hover {
@@ -125,6 +125,25 @@ a {
       text-decoration: underline;
     }
   }
+}
+
+/**
+ * Buttons
+ */
+.btn {
+  display: inline-block;
+  color: $text-color;
+  background-color: $grey-color-light;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px 15px;
+  border-radius: 30px;
+  line-height: 1.1;
+  font-size: 18px;
+  //white-space: $btn-white-space;
+  width: 300px;
+  vertical-align: middle;
 }
 
 
@@ -194,8 +213,44 @@ pre {
   }
 }
 
+.link-wrapper {
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
+  text-align: center;
+  @extend %clearfix;
+
+  @include media-query($on-laptop) {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+    padding-right: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+  }
+}
+
+.landing-header-wrapper {
+  //border-bottom: 1px solid $text-color;
+  padding: 10px 15px;
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  margin-right: auto;
+  margin-left: auto;
+  //padding-right: $spacing-unit;
+  @extend %clearfix;
+
+  @include media-query($on-laptop) {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+    padding-right: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+  }
+}
+
 .header-wrapper {
-  border-bottom: 1px solid $grey-color-light;
+  border-bottom: 1px solid $text-color;
   padding: 10px 15px;
   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
   max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
@@ -213,7 +268,7 @@ pre {
 }
 
 .footer-wrapper {
-  border-top: 1px solid $grey-color-light;
+  //border-top: 1px solid $grey-color-light;
   padding: 15px;
   padding-left: 0;
   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
