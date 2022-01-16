@@ -2,14 +2,14 @@
 layout: links
 ---
 
-#### ☂︎ data ☆ feelings ☀︎ regenerative cycles ⚘ ecosystem thinking ⚡︎ pop culture ❊ system design ☊
+#### ☂︎ data ☆ feelings ☀︎ regenerative cycles ⚘ ecological thinking ☺︎ co-creation ❊ system design ☊ magic ⚡︎ !!!!!!
 
 Jasmine is a queer multiracial entity focused on making complex ideas accessible to everyone. She has worked as a game developer,[^1]{: .footnote} civic tech software consultant,[^2]{: .footnote} alt-weekly editor[^3]{: .footnote} and user experience designer,[^4]{: .footnote} and is an all-around data witch. 
 
 Her current form manifests as a data visuals reporter at [The 19th](https://19thnews.org), an independent nonprofit newsroom covering gender, politics and policy.
 
-## keywords
-#### ☂︎ data ☆ feelings ☀︎ regenerative cycles ⚘ ecosystem thinking ☺︎ pop culture ❊ system design ☊ magic ⚡︎
+[Browse complete-ish portfolio ⤳](https://jazzmyth.notion.site/ed115a74376342f9837609c1d1a0adf9)<br />
+Data visualization, product design, and stories on everything from predictive policing to mascot taxonomy.
 
 <br />
 
@@ -26,10 +26,6 @@ There’s no perfect case study to draw from, but we can make some reasonable co
 
 ["Do fanfiction reading habits change after a celebrity death?" ↬](https://keepintouch.substack.com/p/do-fanfiction-reading-habits-change)<br />
 Morbid thought, couldn’t shake it. Had to know.
-
-
-[Browse complete-ish portfolio ⤳](https://jazzmyth.notion.site/ed115a74376342f9837609c1d1a0adf9)<br />
-Data visualization, product design, and stories on everything from predictive policing to mascot taxonomy.
 
 <hr />
 

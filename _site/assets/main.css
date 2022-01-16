@@ -264,23 +264,25 @@ table {
 .site-header {
   min-height: 55.95px;
   font-family: "Barlow", sans-serif;
-  color: #ffffff;
+  color: #46256A;
   text-transform: lowercase;
   text-decoration: none;
+  background: linear-gradient(180deg, #2CA58D 60%, #c6abe2 60%);
   position: relative; }
 
 .site-title {
-  font-size: 35.75px;
-  font-weight: 500;
+  font-size: 40.15px;
+  font-weight: 900;
   line-height: 74.25px;
   letter-spacing: 0px;
   margin-bottom: 0;
   float: left;
-  text-decoration: none; }
+  text-decoration: none;
+  text-transform: uppercase; }
   .site-title:hover {
     text-decoration: none; }
   .site-title, .site-title:visited {
-    color: #ffffff; }
+    color: #46256A; }
 
 .site-nav {
   float: right;
@@ -290,14 +292,15 @@ table {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #ffffff;
+    color: #46256A;
     line-height: 1.5;
     text-transform: lowercase;
-    text-decoration: none; }
+    text-decoration: none;
+    font-weight: bold; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
   .site-nav .page-link:hover {
-    color: #ffffff; }
+    text-decoration: underline; }
   @media screen and (max-width: 600px) {
     .site-nav {
       position: absolute;
@@ -442,7 +445,7 @@ table {
     margin: 30px 0;
     color: #ffffff; }
   .link-content h1, .link-content h2, .link-content h3 {
-    background-color: #ffffff;
+    background-color: #c6abe2;
     font-weight: 700;
     line-height: 1.1;
     border-radius: 8px;
@@ -452,7 +455,8 @@ table {
     text-align: justify;
     font-size: 26px;
     text-transform: uppercase;
-    color: #c6abe2; }
+    color: #c6abe2;
+    font-weight: bold; }
   .link-content p {
     line-height: 1.25;
     font-size: 20px; }
