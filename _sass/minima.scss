@@ -12,17 +12,22 @@ $heading-font-family: 'Barlow', sans-serif !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:        #ffffff !default;
-$background-color:  #46256A !default;
+// $text-color:        #ffffff !default;
+// $background-color:  #46256A !default;
+
+$text-color:        #46256A !default;
+
 
 // $text-color:       #46256A !default;
 // $background-color: #ffffff !default;
-$brand-color:      #9260c7 !default;
+// $brand-color:      #9260c7 !default;
+$brand-color:      #46256A !default;
 $brand-color-light: lighten($brand-color, 20%) !default;
 
 $grey-color:       #2CA58D !default;
-$grey-color-light: lighten($grey-color, 20%) !default;
+$grey-color-light: lighten($grey-color, 45%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
+$background-color:  $grey-color-light;
 
 $table-text-align: left !default;
 

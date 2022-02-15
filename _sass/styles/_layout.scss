@@ -4,10 +4,10 @@
 .site-header {
   min-height: $spacing-unit * 1.865;
   font-family: $heading-font-family;
-  color: $background-color;
+  color: $text-color;
   text-transform: lowercase;
   text-decoration: none;
-  background: linear-gradient(180deg, $grey-color 60%, $brand-color-light 60%);
+  //background: linear-gradient(180deg, $grey-color 60%, $brand-color-light 60%);
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -30,7 +30,13 @@
 
   &,
   &:visited {
-    color: $background-color;
+    color: $text-color;
+  }
+
+  @include media-query($on-palm) {
+    line-height: $base-line-height * $base-font-size * 1.75;
+    @include relative-font-size(1.5);
+    
   }
 }
 
@@ -47,7 +53,7 @@
   }
 
   .page-link {
-    color: $background-color;
+    color: $brand-color-light;
     line-height: $base-line-height;
     text-transform: lowercase;
     text-decoration: none;
@@ -57,6 +63,7 @@
     &:not(:last-child) {
       margin-right: 20px;
     }
+    
   }
 
   .page-link:hover {
@@ -64,57 +71,62 @@
   }
 
   @include media-query($on-palm) {
-    position: absolute;
-    top: 9px;
-    right: $spacing-unit / 2;
-    background-color: $background-color;
-    border: 1px solid $text-color;
-    border-radius: 5px;
-    text-align: right;
+    line-height: 63px;
 
-    label[for="nav-trigger"] {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 36px;
-      z-index: 2;
-      cursor: pointer;
-    }
-
-    .menu-icon {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 26px;
-      line-height: 0;
-      padding-top: 10px;
-      text-align: center;
-
-      > svg {
-        fill: $grey-color-dark;
-      }
-    }
-
-    input ~ .trigger {
-      clear: both;
-      display: none;
-    }
-
-    input:checked ~ .trigger {
-      display: block;
-      padding-bottom: 5px;
-    }
-
-    .page-link {
-      display: block;
-      padding: 5px 10px;
-
-      &:not(:last-child) {
-        margin-right: 0;
-      }
-      margin-left: 20px;
-    }
   }
+
+  // @include media-query($on-palm) {
+  //   position: absolute;
+  //   top: 9px;
+  //   right: $spacing-unit / 2;
+  //   background-color: $background-color;
+  //   border: 1px solid $text-color;
+  //   border-radius: 5px;
+  //   text-align: right;
+
+  //   label[for="nav-trigger"] {
+  //     display: block;
+  //     float: right;
+  //     width: 36px;
+  //     height: 36px;
+  //     z-index: 2;
+  //     cursor: pointer;
+  //   }
+
+  //   .menu-icon {
+  //     display: block;
+  //     float: right;
+  //     width: 36px;
+  //     height: 26px;
+  //     line-height: 0;
+  //     padding-top: 10px;
+  //     text-align: center;
+
+  //     > svg {
+  //       fill: $grey-color-dark;
+  //     }
+  //   }
+
+  //   input ~ .trigger {
+  //     clear: both;
+  //     display: none;
+  //   }
+
+  //   input:checked ~ .trigger {
+  //     display: block;
+  //     padding-bottom: 5px;
+  //   }
+
+  //   .page-link {
+  //     display: block;
+  //     padding: 5px 10px;
+
+  //     &:not(:last-child) {
+  //       margin-right: 0;
+  //     }
+  //     margin-left: 20px;
+  //   }
+  // }
 }
 
 
@@ -254,6 +266,10 @@
   padding: $spacing-unit 0;
   flex: 1;
 
+  @include media-query($on-palm) {
+    padding: 10px 0;
+  }
+
   hr {
     margin: $spacing-unit 0;
     color: $text-color;
@@ -261,21 +277,29 @@
 
   h1, h2, h3 {
     //background: linear-gradient(180deg, rgba(255,255,255,0) 65%, $grey-color 35%);
-    background-color: $brand-color-light;
+    //background-color: $text-color;
     font-weight: 700;
     line-height: 1.1;
-    //border: 4px solid $background-color;
-    border-radius: 8px;
-    padding: 2px 8px 5px;
-    color: $background-color;
+    border-bottom: 3px solid $text-color;
+    //border-radius: 8px;
+    //padding: 2px 8px 5px;
+    color: $text-color;
+    text-transform: uppercase;
+    //-webkit-text-stroke: 2px $brand-color-light;
   }
 
   h4 {
     text-align: justify;
-    font-size: 26px;
+    font-size: 32px;
     text-transform: uppercase;
-    color: $brand-color-light;
+    color: $text-color;
     font-weight: bold;
+    line-height: 1.2;
+
+    @include media-query($on-palm) {
+      font-size: 20px;
+      line-height: 1.2;
+    }
   }
 
   p {
@@ -286,15 +310,19 @@
       font-size: 22px;
       font-family: $heading-font-family;
       text-decoration: underline;
-      color: $grey-color-light;
+      color: $brand-color-light;
       font-weight: bold;
       //background: linear-gradient(180deg, rgba(255,255,255,0) 80%, $grey-color 20%);
 
+      @include media-query($on-palm) {
+        font-size: 20px;
+      }
       &.footnote {
         font-size: 14px;
         font-weight: 600;
       }
     }
+
   }
   
 .footnotes {
@@ -324,7 +352,7 @@
       font-size: 18px;
   
       a {
-        font-size: 22px;
+        font-size: 20px;
 
         &.footnote {
           font-size: 14px;
