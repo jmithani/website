@@ -12,8 +12,8 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: 400 22px/1.5 "Shippori Mincho", serif;
-  color: #ffffff;
-  background-color: #46256A;
+  color: #46256A;
+  background-color: #c7f0e8;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -73,16 +73,16 @@ li > ol {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Barlow", sans-serif;
   font-weight: 400;
-  color: #ffffff; }
+  color: #46256A; }
 
 /**
  * Links
  */
 a {
-  color: #ffffff;
+  color: #46256A;
   text-decoration: underline; }
   a:hover {
-    color: #ffffff;
+    color: #46256A;
     text-decoration: underline; }
   .social-media-list a:hover {
     text-decoration: none; }
@@ -94,8 +94,8 @@ a {
  */
 .btn {
   display: inline-block;
-  color: #ffffff;
-  background-color: #62d5be;
+  color: #46256A;
+  background-color: #c7f0e8;
   text-align: center;
   font-weight: bold;
   text-decoration: none;
@@ -111,7 +111,7 @@ a {
  */
 blockquote {
   color: #2CA58D;
-  border-left: 4px solid #62d5be;
+  border-left: 4px solid #c7f0e8;
   padding-left: 15px;
   font-size: 24.75px;
   letter-spacing: -1px;
@@ -125,7 +125,7 @@ blockquote {
 pre,
 code {
   font-size: 20.625px;
-  border: 1px solid #62d5be;
+  border: 1px solid #c7f0e8;
   border-radius: 3px;
   background-color: #eef; }
 
@@ -186,7 +186,7 @@ pre {
       padding-left: 15px; } }
 
 .header-wrapper {
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #46256A;
   padding: 10px 15px;
   max-width: -webkit-calc(800px - (30px * 2));
   max-width: calc(800px - (30px * 2));
@@ -244,19 +244,19 @@ table {
   margin-bottom: 30px;
   width: 100%;
   text-align: left;
-  color: white;
+  color: #733dae;
   border-collapse: collapse;
-  border: 1px solid #62d5be; }
+  border: 1px solid #c7f0e8; }
   table tr:nth-child(even) {
-    background-color: #7adcc8; }
+    background-color: #dff6f2; }
   table th, table td {
     padding: 10px 15px; }
   table th {
-    background-color: #6ed8c3;
-    border: 1px solid #52d1b8;
-    border-bottom-color: #35c5a9; }
+    background-color: #d3f3ed;
+    border: 1px solid #b6ece1;
+    border-bottom-color: #96e3d4; }
   table td {
-    border: 1px solid #62d5be; }
+    border: 1px solid #c7f0e8; }
 
 /**
  * Site header
@@ -267,7 +267,6 @@ table {
   color: #46256A;
   text-transform: lowercase;
   text-decoration: none;
-  background: linear-gradient(180deg, #2CA58D 60%, #c6abe2 60%);
   position: relative; }
 
 .site-title {
@@ -283,6 +282,10 @@ table {
     text-decoration: none; }
   .site-title, .site-title:visited {
     color: #46256A; }
+  @media screen and (max-width: 600px) {
+    .site-title {
+      line-height: 57.75px;
+      font-size: 33px; } }
 
 .site-nav {
   float: right;
@@ -292,7 +295,7 @@ table {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #46256A;
+    color: #783fb6;
     line-height: 1.5;
     text-transform: lowercase;
     text-decoration: none;
@@ -303,42 +306,7 @@ table {
     text-decoration: underline; }
   @media screen and (max-width: 600px) {
     .site-nav {
-      position: absolute;
-      top: 9px;
-      right: 15px;
-      background-color: #46256A;
-      border: 1px solid #ffffff;
-      border-radius: 5px;
-      text-align: right; }
-      .site-nav label[for="nav-trigger"] {
-        display: block;
-        float: right;
-        width: 36px;
-        height: 36px;
-        z-index: 2;
-        cursor: pointer; }
-      .site-nav .menu-icon {
-        display: block;
-        float: right;
-        width: 36px;
-        height: 26px;
-        line-height: 0;
-        padding-top: 10px;
-        text-align: center; }
-        .site-nav .menu-icon > svg {
-          fill: #114037; }
-      .site-nav input ~ .trigger {
-        clear: both;
-        display: none; }
-      .site-nav input:checked ~ .trigger {
-        display: block;
-        padding-bottom: 5px; }
-      .site-nav .page-link {
-        display: block;
-        padding: 5px 10px;
-        margin-left: 20px; }
-        .site-nav .page-link:not(:last-child) {
-          margin-right: 0; } }
+      line-height: 63px; } }
 
 /**
  * Site footer
@@ -357,7 +325,7 @@ table {
 
 .footer-col-wrapper {
   font-size: 20.625px;
-  color: #ffffff;
+  color: #46256A;
   margin-left: -15px; }
 
 .footer-col {
@@ -384,7 +352,7 @@ table {
 .footer-col-3 p {
   font-size: 19.8px;
   font-family: "Barlow", sans-serif;
-  color: #ffffff; }
+  color: #46256A; }
 
 @media screen and (max-width: 800px) {
   .footer-col-1,
@@ -432,7 +400,7 @@ table {
   text-decoration: none; }
 
 .post-link:hover {
-  color: #ffffff;
+  color: #46256A;
   text-decoration: underline; }
 
 /**
@@ -441,22 +409,29 @@ table {
 .link-content {
   padding: 30px 0;
   flex: 1; }
+  @media screen and (max-width: 600px) {
+    .link-content {
+      padding: 10px 0; } }
   .link-content hr {
     margin: 30px 0;
-    color: #ffffff; }
+    color: #46256A; }
   .link-content h1, .link-content h2, .link-content h3 {
-    background-color: #c6abe2;
     font-weight: 700;
     line-height: 1.1;
-    border-radius: 8px;
-    padding: 2px 8px 5px;
-    color: #46256A; }
+    border-bottom: 3px solid #46256A;
+    color: #46256A;
+    text-transform: uppercase; }
   .link-content h4 {
     text-align: justify;
-    font-size: 26px;
+    font-size: 32px;
     text-transform: uppercase;
-    color: #c6abe2;
-    font-weight: bold; }
+    color: #46256A;
+    font-weight: bold;
+    line-height: 1.2; }
+    @media screen and (max-width: 600px) {
+      .link-content h4 {
+        font-size: 20px;
+        line-height: 1.2; } }
   .link-content p {
     line-height: 1.25;
     font-size: 20px; }
@@ -464,8 +439,11 @@ table {
       font-size: 22px;
       font-family: "Barlow", sans-serif;
       text-decoration: underline;
-      color: #62d5be;
+      color: #783fb6;
       font-weight: bold; }
+      @media screen and (max-width: 600px) {
+        .link-content p a {
+          font-size: 20px; } }
       .link-content p a.footnote {
         font-size: 14px;
         font-weight: 600; }
@@ -485,7 +463,7 @@ table {
       line-height: 1.25;
       font-size: 18px; }
       .link-content p a {
-        font-size: 22px; }
+        font-size: 20px; }
         .link-content p a.footnote {
           font-size: 14px; } }
 

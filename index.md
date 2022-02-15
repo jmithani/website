@@ -13,7 +13,7 @@ Data visualization, product design, and stories on everything from predictive po
 
 <br />
 
-## some favorite work
+#### some favorite work ☂︎ ☆ ☀︎ ⚘ ☺︎ ❊ ☊ ⚡︎ !
 
 ["Who The Census Misses" ↬](https://fivethirtyeight.com/features/who-the-census-misses/)<br />
 Large groups of people have always fallen through the cracks of its racial categories — often by design.
