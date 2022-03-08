@@ -24,10 +24,10 @@ $text-color:        #46256A !default;
 $brand-color:      #46256A !default;
 $brand-color-light: lighten($brand-color, 20%) !default;
 
-$grey-color:       #2CA58D !default;
+$grey-color:       ghostwhite !default;
 $grey-color-light: lighten($grey-color, 45%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
-$background-color:  $grey-color-light;
+$background-color:  ghostwhite;
 
 $table-text-align: left !default;
 
