@@ -15,19 +15,23 @@ $spacing-unit:     30px !default;
 // $text-color:        #ffffff !default;
 // $background-color:  #46256A !default;
 
-$text-color:        #46256A !default;
+//$text-color:        #46256A !default;
+$text-color:        aliceblue !default;
 
 
 // $text-color:       #46256A !default;
 // $background-color: #ffffff !default;
 // $brand-color:      #9260c7 !default;
+// $brand-color:      #46256A !default; dark purple
 $brand-color:      #46256A !default;
 $brand-color-light: lighten($brand-color, 20%) !default;
+$link-color:       #FF9797 !default;
 
 $grey-color:       ghostwhite !default;
 $grey-color-light: lighten($grey-color, 45%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
-$background-color:  ghostwhite;
+// $background-color:  ghostwhite;
+$background-color: #2F526C;
 
 $table-text-align: left !default;
 

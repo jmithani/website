@@ -12,8 +12,8 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: 400 22px/1.5 "Shippori Mincho", serif;
-  color: #46256A;
-  background-color: #c7f0e8;
+  color: aliceblue;
+  background-color: #2F526C;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -73,16 +73,16 @@ li > ol {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Barlow", sans-serif;
   font-weight: 400;
-  color: #46256A; }
+  color: aliceblue; }
 
 /**
  * Links
  */
 a {
-  color: #46256A;
+  color: aliceblue;
   text-decoration: underline; }
   a:hover {
-    color: #46256A;
+    color: aliceblue;
     text-decoration: underline; }
   .social-media-list a:hover {
     text-decoration: none; }
@@ -94,8 +94,8 @@ a {
  */
 .btn {
   display: inline-block;
-  color: #46256A;
-  background-color: #c7f0e8;
+  color: aliceblue;
+  background-color: white;
   text-align: center;
   font-weight: bold;
   text-decoration: none;
@@ -110,8 +110,8 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: #2CA58D;
-  border-left: 4px solid #c7f0e8;
+  color: ghostwhite;
+  border-left: 4px solid white;
   padding-left: 15px;
   font-size: 24.75px;
   letter-spacing: -1px;
@@ -125,7 +125,7 @@ blockquote {
 pre,
 code {
   font-size: 20.625px;
-  border: 1px solid #c7f0e8;
+  border: 1px solid white;
   border-radius: 3px;
   background-color: #eef; }
 
@@ -186,7 +186,7 @@ pre {
       padding-left: 15px; } }
 
 .header-wrapper {
-  border-bottom: 1px solid #46256A;
+  border-bottom: 1px solid aliceblue;
   padding: 10px 15px;
   max-width: -webkit-calc(800px - (30px * 2));
   max-width: calc(800px - (30px * 2));
@@ -230,7 +230,7 @@ pre {
   width: 16px;
   height: 16px;
   display: inline-block;
-  fill: #2CA58D;
+  fill: ghostwhite;
   padding-right: 5px;
   vertical-align: text-top; }
 
@@ -244,19 +244,19 @@ table {
   margin-bottom: 30px;
   width: 100%;
   text-align: left;
-  color: #733dae;
+  color: white;
   border-collapse: collapse;
-  border: 1px solid #c7f0e8; }
+  border: 1px solid white; }
   table tr:nth-child(even) {
-    background-color: #dff6f2; }
+    background-color: white; }
   table th, table td {
     padding: 10px 15px; }
   table th {
-    background-color: #d3f3ed;
-    border: 1px solid #b6ece1;
-    border-bottom-color: #96e3d4; }
+    background-color: white;
+    border: 1px solid #ebebff;
+    border-bottom-color: #c2c2ff; }
   table td {
-    border: 1px solid #c7f0e8; }
+    border: 1px solid white; }
 
 /**
  * Site header
@@ -264,7 +264,7 @@ table {
 .site-header {
   min-height: 55.95px;
   font-family: "Barlow", sans-serif;
-  color: #46256A;
+  color: aliceblue;
   text-transform: lowercase;
   text-decoration: none;
   position: relative; }
@@ -281,7 +281,7 @@ table {
   .site-title:hover {
     text-decoration: none; }
   .site-title, .site-title:visited {
-    color: #46256A; }
+    color: aliceblue; }
   @media screen and (max-width: 600px) {
     .site-title {
       line-height: 57.75px;
@@ -295,7 +295,7 @@ table {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #783fb6;
+    color: #FF9797;
     line-height: 1.5;
     text-transform: lowercase;
     text-decoration: none;
@@ -325,7 +325,7 @@ table {
 
 .footer-col-wrapper {
   font-size: 20.625px;
-  color: #46256A;
+  color: aliceblue;
   margin-left: -15px; }
 
 .footer-col {
@@ -352,7 +352,7 @@ table {
 .footer-col-3 p {
   font-size: 19.8px;
   font-family: "Barlow", sans-serif;
-  color: #46256A; }
+  color: aliceblue; }
 
 @media screen and (max-width: 800px) {
   .footer-col-1,
@@ -391,7 +391,7 @@ table {
 
 .post-meta {
   font-size: 19.25px;
-  color: #2CA58D;
+  color: ghostwhite;
   font-family: "Barlow", sans-serif; }
 
 .post-link {
@@ -400,7 +400,7 @@ table {
   text-decoration: none; }
 
 .post-link:hover {
-  color: #46256A;
+  color: aliceblue;
   text-decoration: underline; }
 
 /**
@@ -414,18 +414,18 @@ table {
       padding: 10px 0; } }
   .link-content hr {
     margin: 30px 0;
-    color: #46256A; }
+    color: aliceblue; }
   .link-content h1, .link-content h2, .link-content h3 {
     font-weight: 700;
     line-height: 1.1;
-    border-bottom: 3px solid #46256A;
-    color: #46256A;
+    border-bottom: 3px solid aliceblue;
+    color: aliceblue;
     text-transform: uppercase; }
   .link-content h4 {
     text-align: justify;
     font-size: 32px;
     text-transform: uppercase;
-    color: #46256A;
+    color: aliceblue;
     font-weight: bold;
     line-height: 1.2; }
     @media screen and (max-width: 600px) {
@@ -439,7 +439,7 @@ table {
       font-size: 22px;
       font-family: "Barlow", sans-serif;
       text-decoration: underline;
-      color: #783fb6;
+      color: #FF9797;
       font-weight: bold; }
       @media screen and (max-width: 600px) {
         .link-content p a {

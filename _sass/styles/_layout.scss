@@ -53,7 +53,7 @@
   }
 
   .page-link {
-    color: $brand-color-light;
+    color: $link-color;
     line-height: $base-line-height;
     text-transform: lowercase;
     text-decoration: none;
@@ -310,7 +310,7 @@
       font-size: 22px;
       font-family: $heading-font-family;
       text-decoration: underline;
-      color: $brand-color-light;
+      color: $link-color;
       font-weight: bold;
       //background: linear-gradient(180deg, rgba(255,255,255,0) 80%, $grey-color 20%);
 

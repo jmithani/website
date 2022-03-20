@@ -10,6 +10,9 @@ Her current form manifests as a data visuals reporter at [The 19th](https://19th
 
 [Browse complete-ish portfolio ⤳](https://jazzmyth.notion.site/ed115a74376342f9837609c1d1a0adf9)<br />
 Data visualization, product design, and stories on everything from predictive policing to mascot taxonomy.
+<div style="text-align: center">
+    <iframe src="https://jazzmyth.substack.com/embed" max-width="740" height="180" style="background:white;" frameborder="0" scrolling="no"></iframe>
+</div>
 
 <br />
 
