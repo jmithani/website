@@ -3,8 +3,12 @@ layout: links
 permalink: /linkz/
 ---
 
+**[Subscribe to my newsletter. ⇝](https://jazzmyth.substack.com/)**<br />
+data + feelings. Weekly notes about systems, journalism, data visualization, creativity & magic.
+
+
 **[Support my work. ↬](https://19thnews.org/membership/)**<br />
-Become a member of The 19th, an independent nonprofit newsroom covering gender, politics and policy.
+Data about gender, sex and sexuality is messy. I break it all down for you at The 19th, an independent nonprofit newsroom covering gender, politics and policy.
 
 **[Read "Who The Census Misses." ⤳](https://fivethirtyeight.com/features/who-the-census-misses/)**<br />
 Large groups of people have always fallen through the cracks of its racial categories — often by design.
