@@ -2,7 +2,7 @@
 layout: links
 ---
 
-Jasmine Mithani is a journalist covering gender and technology. She has worked as a game developer,[^1]{: .footnote} civic tech software consultant,[^2]{: .footnote} alt-weekly editor[^3]{: .footnote} and user experience designer,[^4]{: .footnote} and visual journalist.[^5]{: .footnote} 
+Jasmine Mithani is a journalist covering gender and technology. She has worked as a game developer,[^1]{: .footnote} civic tech software consultant,[^2]{: .footnote} alt-weekly editor[^3]{: .footnote}, user experience designer,[^4]{: .footnote} and visual journalist.[^5]{: .footnote} 
 
 She's currently a tech & data reporter at [The 19th](https://19thnews.org), an independent nonprofit newsroom covering gender, politics and policy.
 
