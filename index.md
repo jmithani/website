@@ -2,9 +2,15 @@
 layout: links
 ---
 
-Jasmine Mithani is a journalist covering gender and technology. She has worked as a game developer,[^1]{: .footnote} civic tech software consultant,[^2]{: .footnote} alt-weekly editor[^3]{: .footnote}, user experience designer,[^4]{: .footnote} and visual journalist.[^5]{: .footnote} 
+Jasmine Mithani is a journalist covering gender, technology and politics. She has worked as a game developer,[^1]{: .footnote} civic tech software consultant,[^2]{: .footnote} alt-weekly editor[^3]{: .footnote}, user experience designer,[^4]{: .footnote} and visual journalist.[^5]{: .footnote} 
 
-She's currently a tech & data reporter at [The 19th](https://19thnews.org), an independent nonprofit newsroom covering gender, politics and policy.
+She's currently a tech & data reporter at [The 19th](https://19thnews.org), an independent nonprofit newsroom covering gender, politics and policy. Jasmine is also a 2025 Reporting Fellow at [Tech Policy Press](https://www.techpolicy.press/about-us/).
+
+Message her on [Signal](https://signal.me/#eu/9cMb3VzI8RWSVtdYRnLu4zosBJh_mAMW7pnYpEoN-UAvtxVFvwhLaZXiCxoci-wm_), follow her on [Bluesky](https://bsky.app/profile/jazzmyth.bsky.social) or connect with her on [LinkedIn](https://www.linkedin.com/in/jmithani/). 
+
+Jasmine is happy to consult with creators to help create more accurate online content about tech policy. She's available for media hits and loves to join podcasters for [longform](https://www.kqed.org/forum/2010101910206/the-take-it-down-act-explained_), [in-depth](https://think.kera.org/2024/08/01/theres-no-such-thing-as-revenge-porn/) [conversations](https://slate.com/podcasts/outward/2024/09/why-lgbtq-groups-oppose-the-kids-online-safety-act-jasmine-mithani-explains).
+
+She's excited to speak about her reporting or gender and technology at events. Jasmine regularly leads sessions for other journalists on best practices on working with data on LGBTQ+ people, accessibilty and thoughtful reporting on mixed-race people.
 
 [Browse previous work ⤳](https://jazzmyth.notion.site/ed115a74376342f9837609c1d1a0adf9)<br />
 Data visualization, product design, and stories on everything from predictive policing to mascot taxonomy.
