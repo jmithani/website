@@ -6,7 +6,7 @@ Jasmine Mithani is a journalist covering gender, technology and politics. She ha
 
 She's currently a tech & data reporter at [The 19th](https://19thnews.org), an independent nonprofit newsroom covering gender, politics and policy. Jasmine is also a 2025 Reporting Fellow at [Tech Policy Press](https://www.techpolicy.press/about-us/).
 
-Message her on [Signal](https://signal.me/#eu/9cMb3VzI8RWSVtdYRnLu4zosBJh_mAMW7pnYpEoN-UAvtxVFvwhLaZXiCxoci-wm_), follow her on [Bluesky](https://bsky.app/profile/jazzmyth.bsky.social) or connect with her on [LinkedIn](https://www.linkedin.com/in/jmithani/). 
+Message her on [Signal](hhttps://signal.me/#eu/JZB2sQF4rLA8nYVQT2yN1YaktWFHI7y1fsPfJwDnLOP2PoZ0aB1InpAJnwFYKkK_), follow her on [Bluesky](https://bsky.app/profile/jazzmyth.bsky.social) or connect with her on [LinkedIn](https://www.linkedin.com/in/jmithani/). 
 
 Jasmine is happy to consult with creators to help create more accurate online content about tech policy. She's available for media hits and loves to join podcasters for [longform](https://www.kqed.org/forum/2010101910206/the-take-it-down-act-explained_), [in-depth](https://think.kera.org/2024/08/01/theres-no-such-thing-as-revenge-porn/) [conversations](https://slate.com/podcasts/outward/2024/09/why-lgbtq-groups-oppose-the-kids-online-safety-act-jasmine-mithani-explains).
 
